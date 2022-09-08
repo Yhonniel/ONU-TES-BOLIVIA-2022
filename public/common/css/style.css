@@ -4822,8 +4822,8 @@ fieldset:disabled .btn {
   justify-content: space-between;
 }
 .navbar-brand {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  /*/padding-top: 20px;/*/
+  /*/padding-bottom: 20px;/*/
   margin-right: 1rem;
   font-size: calc(1.025rem + 0.3vw);
   white-space: nowrap;
@@ -17049,7 +17049,7 @@ fieldset:disabled .btn {
 }
 
 .navbar-nav .nav-link {
-  font-size: 0.875rem;
+  font-size: 1rem;
   font-weight: 500;
   text-transform: capitalize;
   line-height: 84px;
@@ -17178,10 +17178,12 @@ header.navbar-sticky-on .navbar-brand .navbar-brand-item {
     box-shadow: none;
   }
 }
-.navbar-brand {
+
+/*/.navbar-brand {
   padding-top: 20px;
   padding-bottom: 20px;
-}
+} /*/
+
 .navbar-brand .navbar-brand-item {
   height: 64px;
   display: block;
