@@ -6,7 +6,7 @@ const NavBar = () => {
     <header className='header-static navbar-sticky navbar-light shadow'>
       {/* <!-- Logo Nav Start --> */}
       <nav className='navbar navbar-expand-lg '>
-        <div className='container p-0 m-0'>
+        <div className='container-fluid'>
           {/* <!-- Logo --> */}
           <a className='navbar-brand' href='/'>
             {/* <!-- Logo --> */}
