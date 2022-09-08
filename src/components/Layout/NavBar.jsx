@@ -245,19 +245,6 @@ const NavBar = () => {
               </li>
             </ul>
           </div>
-          {/* <!-- Main Menu End --> */}
-          {/* <!-- Header Extras Start--> */}
-          <div className='navbar-nav m-3'>
-            {/* <!-- extra item Search--> */}
-
-            {/* <!-- extra item Btn--> */}
-            <div className='nav-item border-0 d-none d-lg-inline-block align-self-center'>
-              <a href='#' className=' btn btn-sm btn-grad text-white mb-0'>
-                Más info!
-              </a>
-            </div>
-          </div>
-          {/* <!-- Header Extras End--> */}
         </div>
       </nav>
       {/* <!-- Logo Nav End --> */}

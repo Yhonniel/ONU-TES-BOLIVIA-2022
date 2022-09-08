@@ -61,13 +61,13 @@ const BoliviaCumbre = () => {
             </h3>
             <p className='mb-0'>
               La delegación del Estado Plurinacional de Bolivia que participó en
-              la Pre-Cumbre estuvo conformada por el Ministro de Educación, Sr.
-              Edgar Pary y el Vicecanciller del Estado, Sr. Freddy Mamani,
-              quienes socializaron en reuniones de alto nivel los avances de
-              Bolivia en materia educativa poniendo en relevancia las acciones
-              promovidas por el Gobierno del presidente Luis Arce Catacora para
-              promover el Plan Estratégico del Decenio Internacional de las
-              Lenguas Indígenas 2022 – 2032 en Bolivia.
+              la Pre-Cumbre estuvo conformada por el Ministro de Educación,
+              Edgar Pary y el Vicecanciller del Estado, Freddy Mamani, quienes
+              socializaron en reuniones de alto nivel los avances de Bolivia en
+              materia educativa poniendo en relevancia las acciones promovidas
+              por el Gobierno del presidente Luis Arce Catacora para promover el
+              Plan Estratégico del Decenio Internacional de las Lenguas
+              Indígenas 2022 – 2032 en Bolivia.
             </p>
 
             <div className='mt-4'>
@@ -122,10 +122,19 @@ const BoliviaCumbre = () => {
                                 href='https://www.youtube.com/watch?v=XcVG7SGiWW8'
                               >
                                 <i className='fa fa-link fa-fw text-info'></i>
-                                Participación del Ministro de Educación, Sr.
-                                Edgar Pary Chambi en la Pre-Cumbre 29 de junio
-                                de 2022 - Sede de la UNESCO - París, Francia
-                                (video)
+                                Participación del Ministro de Educación, Edgar
+                                Pary Chambi en la Pre-Cumbre 29 de junio de 2022
+                                - Sede de la UNESCO - París, Francia
+                              </a>
+                            </li>
+                            <li className='list-group-item'>
+                              <a
+                                target={"_blank"}
+                                href='https://drive.google.com/file/d/16dOfsFGBIQGM7izK_pi51SwOonYicVGt/view?usp=sharing'
+                              >
+                                <i className='fa fa-link fa-fw text-info'></i>
+                                PreCumbre sobre la Transformación de la
+                                Educación
                               </a>
                             </li>
                           </ul>
@@ -145,7 +154,10 @@ const BoliviaCumbre = () => {
                       </div>
                       <div className='modal-footer'>
                         <button type='button' className='btn'>
-                          <a className='btn btn-grad' href='#'>
+                          <a
+                            className='btn btn-grad'
+                            href='/bolivia-en-la-cumbre'
+                          >
                             Ir a la sección
                           </a>
                         </button>

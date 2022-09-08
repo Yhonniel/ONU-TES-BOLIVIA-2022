@@ -9,9 +9,9 @@ const Footer = () => {
             {/* <!-- Footer widget 1 --> */}
             <div className='col-md-8 mx-auto'>
               <div className='widget text-center mt-5'>
-                <a href='index.html' className='footer-logo mb-3 d-block'>
+                <a href='/' className='footer-logo mb-3 d-block'>
                   {/* <!-- SVG Logo Start --> */}
-                  <img src='/logo2on.png' alt='' />
+                  <img src='/logo2on.png' alt='logo' />
 
                   {/* <!-- SVG Logo End --> */}
                 </a>
@@ -24,15 +24,33 @@ const Footer = () => {
                 {/* <!-- contact inf--> */}
                 <ul className='p-0 list-inline'>
                   <li className='list-inline-item me-4'>
-                    <i className='me-1 ti-twitter-alt'></i>@onu
+                    <a target={"_blank"} href='https://twitter.com/ONU_es'>
+                      <i className='me-1 ti-twitter-alt'></i>
+                    </a>
                   </li>
                   <li className='list-inline-item me-4'>
-                    <i className='me-1 ti-facebook'></i>
-                    UNU PAGE
+                    <a
+                      target={"_blank"}
+                      href='https://www.facebook.com/nacionesunidas'
+                    >
+                      <i className='me-1 ti-facebook'></i>
+                    </a>
                   </li>
                   <li className='list-inline-item me-4'>
-                    <i className='me-1 ti-email'></i>{" "}
-                    <a href=''>help@onu.com</a>{" "}
+                    <a
+                      target={"_blank"}
+                      href='https://www.instagram.com/nacionesunidas/'
+                    >
+                      <i className='me-1 ti-instagram'></i>
+                    </a>
+                  </li>
+                  <li className='list-inline-item me-4'>
+                    <a
+                      target={"_blank"}
+                      href='https://www.youtube.com/user/NacionesUnidasVideo'
+                    >
+                      <i className='me-1 ti-youtube'></i>
+                    </a>
                   </li>
                 </ul>
                 <div className='divider my-3'></div>
@@ -40,18 +58,19 @@ const Footer = () => {
                 <div className='copyright-links my-2'>
                   <ul className='list-inline'>
                     <li className='list-inline-item ps-2'>
-                      <a className='list-group-item-action' href='#'>
+                      <a
+                        className='list-group-item-action'
+                        href='https://www.un.org/es/contact-us-0'
+                      >
                         Contacto
                       </a>
                     </li>
                     <li className='list-inline-item ps-2'>
-                      <a className='list-group-item-action' href='#'>
+                      <a
+                        className='list-group-item-action'
+                        href='https://www.un.org/es/about-us/privacy-notice'
+                      >
                         Privacidad
-                      </a>
-                    </li>
-                    <li className='list-inline-item ps-2'>
-                      <a className='list-group-item-action' href='#'>
-                        Politicas
                       </a>
                     </li>
                     <li className='list-inline-item ps-2'>
@@ -68,8 +87,12 @@ const Footer = () => {
                 </div>
                 {/* <!-- copyright text --> */}
                 <div className='copyright-text'>
-                  © Derechos de autor 2022 <a href='#!'> Naciones Unidas</a> en
-                  Bolivia.
+                  © Derechos reservados 2022{" "}
+                  <a target={"_blank"} href='https://www.un.org/es/'>
+                    {" "}
+                    Naciones Unidas
+                  </a>{" "}
+                  en Bolivia.
                 </div>
               </div>
             </div>

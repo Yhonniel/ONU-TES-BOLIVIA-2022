@@ -12,13 +12,13 @@ const AcercaCumbre = () => {
               <h3>Objetivos generales de la Precumbre</h3>
               <p className='mb-0'>
                 Del 28 al 30 de junio de 2022 tuvo lugar en París la Precumbre
-                de la Cumbre sobre la Transformación de la Educación. El 28 de
-                junio se celebró un Día del Compromiso Mundial, donde se
-                organizaron reuniones técnicas sobre las vías de acción
-                temáticas y compromisos con las principales partes interesadas.
-                La sesión de alto nivel, que contó con participación ministerial
-                y de distintas partes interesadas, los días 29 y 30 de junio de
-                2022.
+                sobre la Transformación de la Educación. El 28 de junio se
+                celebró un Día del Compromiso Mundial, donde se organizaron
+                reuniones técnicas sobre las vías de acción temáticas y
+                compromisos con las principales partes interesadas. La sesión de
+                alto nivel, que contó con participación ministerial y de
+                distintas partes interesadas, se realizó los días 29 y 30 de
+                junio.
               </p>
               <div className='mt-4'>
                 <div>
