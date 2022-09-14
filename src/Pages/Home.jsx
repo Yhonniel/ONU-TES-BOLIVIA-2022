@@ -6,6 +6,7 @@ import Sectiona from "../components/Shared/BoliviaCumbre";
 import Intituciones from "../components/Shared/Intituciones";
 import BoliviaCumbre from "../components/Shared/BoliviaCumbre";
 import AcercaCumbre from "../components/Shared/AcercaCumbre";
+import InfografiaSlider1 from "../components/Shared/InfografiaSlider1";
 
 const Home = () => {
   return (
@@ -14,7 +15,7 @@ const Home = () => {
       <AcercaCumbre></AcercaCumbre>
       <BoliviaCumbre></BoliviaCumbre>
 
-      <NotiHome></NotiHome>
+      <InfografiaSlider1></InfografiaSlider1>
 
       <Intituciones></Intituciones>
     </>

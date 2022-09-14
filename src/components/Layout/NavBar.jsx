@@ -29,6 +29,12 @@ const NavBar = () => {
             <ul className='navbar-nav navbar-nav-scroll navbar-nav-scroll ms-auto'>
               {/* <!-- Menu item 1 Demos--> */}
               <li className='nav-item dropdown'>
+                <a className='nav-link' href='/'>
+                  INICIO
+                </a>
+              </li>
+              {/* <!-- Menu item 1 Demos--> */}
+              <li className='nav-item dropdown'>
                 <a className='nav-link' href='/sobre-la-cumbre'>
                   SOBRE LA CUMBRE
                 </a>

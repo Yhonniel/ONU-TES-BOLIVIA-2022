@@ -21,28 +21,34 @@ const Intituciones = () => {
                 data-items-xs='3'
               >
                 <div className='item'>
-                  <img src='/images/instituciones/onu-black.png' alt='' />
+                  <img src='/images/instituciones/1.png' alt='institucion' />
                 </div>
                 <div className='item'>
-                  <img src='/images/instituciones/onu-black.png' alt='' />
+                  <img src='/images/instituciones/2.png' alt='institucion' />
                 </div>
                 <div className='item'>
-                  <img src='/images/instituciones/onu-black.png' alt='' />
+                  <img src='/images/instituciones/3.png' alt='institucion' />
                 </div>
                 <div className='item'>
-                  <img src='/images/instituciones/onu-black.png' alt='' />
+                  <img src='/images/instituciones/4.png' alt='institucion' />
                 </div>
                 <div className='item'>
-                  <img src='/images/instituciones/onu-black.png' alt='' />
+                  <img src='/images/instituciones/5.png' alt='institucion' />
                 </div>
                 <div className='item'>
-                  <img src='/images/instituciones/onu-black.png' alt='' />
+                  <img src='/images/instituciones/6.png' alt='institucion' />
                 </div>
                 <div className='item'>
-                  <img src='/images/instituciones/onu-black.png' alt='' />
+                  <img src='/images/instituciones/8.svg' alt='institucion' />
                 </div>
                 <div className='item'>
-                  <img src='/images/instituciones/onu-black.png' alt='' />
+                  <img src='/images/instituciones/9.png' alt='institucion' />
+                </div>
+                <div className='item'>
+                  <img src='/images/instituciones/10.jpg' alt='institucion' />
+                </div>
+                <div className='item'>
+                  <img src='/images/instituciones/11.png' alt='institucion' />
                 </div>
               </div>
             </div>

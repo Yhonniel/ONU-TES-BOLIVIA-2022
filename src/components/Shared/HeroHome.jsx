@@ -17,12 +17,12 @@ const HeroHome = () => {
             <div className='container h-100'>
               <div className='row d-flex h-100'>
                 <div className='col-lg-8 col-xl-6 me-auto slider-content justify-content-center align-self-center align-items-start text-start'>
-                  <h2 className='animate__animated animate__fadeInUp animate__delay-1s display-2 text-white'>
-                    <strong className='fw-bold'>BOLIVIA</strong> EN LA CUMBRE
+                  <h2 className='animate__animated animate__fadeInUp animate__delay-1s display-2 fw-bold text-white'>
+                    Bolivia en la Cumbre
                   </h2>
 
-                  <h3 className='animate__animated animate__fadeInUp animate__delay-2s text-white display-7 alt-font mb-2 my-md-4'>
-                    Diálogos y Consultas Nacionales
+                  <h3 className='animate__animated animate__fadeInUp animate__delay-2s text-white display-7 mb-2 my-md-4'>
+                    Educación inclusiva, equitativa y de calidad.
                   </h3>
                   <div className='animate__animated animate__fadeInUp animate__delay-3s mt-3 dealy-1500'>
                     <a href='/' className='btn btn-grad'>
@@ -39,7 +39,7 @@ const HeroHome = () => {
               <div className='row d-flex h-100'>
                 <div className='col-lg-8 col-xl-6 me-auto slider-content justify-content-center align-self-center align-items-start text-start'>
                   <h2 className='animate__animated animate__fadeInUp animate__delay-1s display-2 fw-bold text-white'>
-                    Diálogos y Consultas Nacionales
+                    Somos la Cumbre
                   </h2>
                   <div className='animate__animated animate__fadeInUp animate__delay-3s mt-3 dealy-1500'>
                     <a href='/' className='btn btn-grad'>
@@ -56,7 +56,7 @@ const HeroHome = () => {
               <div className='row d-flex h-100'>
                 <div className='col-lg-8 col-xl-6 me-auto slider-content justify-content-center align-self-center align-items-start text-start'>
                   <h2 className='animate__animated animate__fadeInUp animate__delay-1s display-2 fw-bold text-white'>
-                    Documentos de la Posición País
+                    Estamos aquí
                   </h2>
                   <div className='animate__animated animate__fadeInUp animate__delay-3s mt-3 dealy-1500'>
                     <a href='/' className='btn btn-grad'>

@@ -10,9 +10,8 @@
 }
 .slider1::before {
   content: "";
-  background: url(/public/images/cumbre/2.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/public/images/hero/home1.png) no-repeat center center;
   background-size: cover;
   position: absolute;
   top: 0;
@@ -28,9 +27,9 @@
 }
 .slider2::before {
   content: "";
-  background: url(/public/images/cumbre/2.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/public/images/hero/home3.png) no-repeat center center;
+
   background-size: cover;
   position: absolute;
   top: 0;
@@ -46,9 +45,8 @@
 }
 .slider3::before {
   content: "";
-  background: url(/public/images/cumbre/2.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/public/images/hero/home2.png) no-repeat center center;
   background-size: cover;
   position: absolute;
   top: 0;
