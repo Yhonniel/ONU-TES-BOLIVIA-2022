@@ -7,6 +7,7 @@ import Intituciones from "../components/Shared/Intituciones";
 import BoliviaCumbre from "../components/Shared/BoliviaCumbre";
 import AcercaCumbre from "../components/Shared/AcercaCumbre";
 import InfografiaSlider1 from "../components/Shared/InfografiaSlider1";
+import InfografiaSlider2 from "../components/Shared/InfografiaSlider2";
 
 const Home = () => {
   return (
@@ -15,7 +16,7 @@ const Home = () => {
       <AcercaCumbre></AcercaCumbre>
       <BoliviaCumbre></BoliviaCumbre>
 
-      <InfografiaSlider1></InfografiaSlider1>
+      <InfografiaSlider2></InfografiaSlider2>
 
       <Intituciones></Intituciones>
     </>

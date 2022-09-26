@@ -13,8 +13,8 @@ const InfografiaSlider1 = () => {
               data-arrow='false'
               data-dots='false'
               data-items-xl='1'
-              data-items-md='2'
-              data-items-sm='2'
+              data-items-md='1'
+              data-items-sm='1'
               data-items-xs='1'
             >
               {/* <!-- Slider items --> */}
