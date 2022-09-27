@@ -11,11 +11,12 @@ const InfografiaSlider2 = () => {
             <div className='col-lg-6 col-md-12 px-4 py-5 p-lg-5'>
               <div className='h-100'>
                 <div className='title p-0'>
-                  <span className=''>Agenda 2030: Objetivos y metas </span>
-                  <h3>
-                    Apegados al ODS 4: Garantizar una educación inclusiva,
-                    equitativa y de calidad.
-                  </h3>
+                  <span className=''>Objetivo de Desarrollo Sostenible 4 </span>
+                  <h4>
+                    Garantizar una educación inclusiva, equitativa y de calidad
+                    y promover oportunidades de aprendizaje durante toda la vida
+                    para todos.
+                  </h4>
                 </div>
                 <div className='row'>
                   <div className='tiny-slider testi-full dots-dark'>
@@ -30,27 +31,25 @@ const InfografiaSlider2 = () => {
                         <div className='testimonials-wrap'>
                           {" "}
                           <img
-                            src='/images/infografias/infografia-1.png'
+                            src='/images/infografias/B.png'
                             alt='infografias'
                           />{" "}
                         </div>
                       </div>
-                      {/* <!-- testimonial item --> */}
                       <div className='item'>
                         <div className='testimonials-wrap'>
                           {" "}
                           <img
-                            src='/images/infografias/infografia-2.png'
+                            src='/images/infografias/C.png'
                             alt='infografias'
                           />{" "}
                         </div>
                       </div>
-                      {/* <!-- testimonial item --> */}
                       <div className='item'>
                         <div className='testimonials-wrap'>
                           {" "}
                           <img
-                            src='/images/infografias/infografias-4.png'
+                            src='/images/infografias/D.png'
                             alt='infografias'
                           />{" "}
                         </div>

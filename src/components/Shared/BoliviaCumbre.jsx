@@ -36,7 +36,7 @@ const BoliviaCumbre = () => {
                   data-aos-delay='300'
                   data-aos-duration='1500'
                 >
-                  <h4>Bolivia!</h4>
+                  <h4>Bolivia</h4>
                   <h3 className='fw-bold'>Transformando la educación</h3>
                 </div>
               </div>
@@ -56,8 +56,8 @@ const BoliviaCumbre = () => {
           <div className='col-md-6 ps-lg-5'>
             <span>Bolivia en la Pre-Cumbre</span>
             <h3>
-              Bolivia presente en la Pre-Cumbre sobre la Transformación de la
-              Educación
+              Bolivia presente en la Pre-Cumbre <br /> sobre la Transformación
+              de la Educación
             </h3>
             <p className='mb-0'>
               La delegación del Estado Plurinacional de Bolivia que participó en
@@ -79,7 +79,7 @@ const BoliviaCumbre = () => {
                   data-bs-toggle='modal'
                   data-bs-target='#boliviaCumbre'
                 >
-                  Más info
+                  Más información
                 </button>
 
                 {/* <!-- Modal --> */}

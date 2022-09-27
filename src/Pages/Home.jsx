@@ -14,7 +14,6 @@ const Home = () => {
       <BoliviaCumbre></BoliviaCumbre>
 
       <InfografiaSlider2></InfografiaSlider2>
-      <NotiHome></NotiHome>
 
       <Intituciones></Intituciones>
     </>

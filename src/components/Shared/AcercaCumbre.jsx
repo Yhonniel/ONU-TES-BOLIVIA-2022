@@ -8,29 +8,40 @@ const AcercaCumbre = () => {
         <div className='row'>
           <div className='col-md-12 col-lg-6 align-self-center '>
             <div className='title text-start'>
-              <span>Pre-Cumbre </span>
-              <h3>Objetivos generales de la Precumbre</h3>
+              <h3>
+                Transformar la educación, <br /> construir nuestro futuro
+              </h3>
               <p className='mb-0'>
-                Del 28 al 30 de junio de 2022 tuvo lugar en París la Precumbre
-                sobre la Transformación de la Educación. El 28 de junio se
-                celebró un Día del Compromiso Mundial, donde se organizaron
-                reuniones técnicas sobre las vías de acción temáticas y
-                compromisos con las principales partes interesadas. La sesión de
-                alto nivel, que contó con participación ministerial y de
-                distintas partes interesadas, se realizó los días 29 y 30 de
-                junio.
+                La Cumbre sobre la Transformación de la Educación se convoca en
+                respuesta a una crisis mundial de la educación en materia de
+                igualdad, inclusión, calidad y pertinencia. Esta crisis, a
+                menudo lenta e invisible, está teniendo un efecto devastador en
+                el futuro de los niños, las niñas y jóvenes de todo el mundo. La
+                Cumbre ofrece una oportunidad única para elevar la educación a
+                la cima de la agenda política mundial y movilizar la acción, la
+                aspiración, la solidaridad y las soluciones necesarias para
+                recuperar las pérdidas de aprendizaje relacionadas con la
+                pandemia y sembrar las semillas de transformación de la
+                educación en un mundo de rápida evolución.
               </p>
               <div className='mt-4'>
                 <div>
                   {/* <!-- Button trigger modal --> */}
-                  <button
+                  <a
+                    href='https://www.un.org/es/transforming-education-summit'
+                    className='btn btn-grad'
+                    target='_blank'
+                  >
+                    Más Información
+                  </a>
+                  {/* <button
                     type='button'
                     className='btn btn-grad'
                     data-bs-toggle='modal'
                     data-bs-target='#precumbre'
                   >
                     Más info
-                  </button>
+                  </button> */}
 
                   {/* <!-- Modal --> */}
                   <div
@@ -112,7 +123,7 @@ const AcercaCumbre = () => {
                 href='https://www.youtube.com/watch?v=J_wmZVM42bc'
               >
                 {" "}
-                <i className='fa fa-play text-white'></i>Play Video{" "}
+                <i className='fa fa-play text-white'></i>Mira el Video{" "}
               </a>
             </div>
           </div>

@@ -9,7 +9,11 @@ const NavBar = () => {
           {/* <!-- Logo --> */}
           <a className='navbar-brand' href='/'>
             {/* <!-- Logo --> */}
-            <img className='navbar-brand-item' src='/logo2on.png' alt='Logo' />
+            <img
+              className='navbar-brand-item'
+              src='/logoCumbre.png'
+              alt='Logo'
+            />
           </a>
           {/* <!-- Menu opener button --> */}
           <button
