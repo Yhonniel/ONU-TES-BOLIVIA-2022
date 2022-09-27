@@ -24,13 +24,18 @@ const Footer = () => {
                 {/* <!-- contact inf--> */}
                 <ul className='p-0 list-inline'>
                   <li className='list-inline-item me-4'>
-                    <a target={"_blank"} href='https://twitter.com/ONU_es'>
+                    <a
+                      target={"_blank"}
+                      rel='noopener'
+                      href='https://twitter.com/ONU_es'
+                    >
                       <i className='me-1 ti-twitter-alt'></i>
                     </a>
                   </li>
                   <li className='list-inline-item me-4'>
                     <a
                       target={"_blank"}
+                      rel='noreferer'
                       href='https://www.facebook.com/nacionesunidas'
                     >
                       <i className='me-1 ti-facebook'></i>
@@ -39,6 +44,7 @@ const Footer = () => {
                   <li className='list-inline-item me-4'>
                     <a
                       target={"_blank"}
+                      rel='noreferer'
                       href='https://www.instagram.com/nacionesunidas/'
                     >
                       <i className='me-1 ti-instagram'></i>
@@ -47,6 +53,7 @@ const Footer = () => {
                   <li className='list-inline-item me-4'>
                     <a
                       target={"_blank"}
+                      rel='noreferer'
                       href='https://www.youtube.com/user/NacionesUnidasVideo'
                     >
                       <i className='me-1 ti-youtube'></i>
@@ -61,6 +68,8 @@ const Footer = () => {
                       <a
                         className='list-group-item-action'
                         href='https://www.un.org/es/contact-us-0'
+                        target={"_blank"}
+                        rel='noreferer'
                       >
                         Contacto
                       </a>
@@ -69,17 +78,20 @@ const Footer = () => {
                       <a
                         className='list-group-item-action'
                         href='https://www.un.org/es/about-us/privacy-notice'
+                        target={"_blank"}
+                        rel='noreferer'
                       >
                         Privacidad
                       </a>
                     </li>
+
                     <li className='list-inline-item ps-2'>
-                      <a className='list-group-item-action' href='#'>
-                        Terminos
-                      </a>
-                    </li>
-                    <li className='list-inline-item ps-2'>
-                      <a className='list-group-item-action pe-0' href='#'>
+                      <a
+                        className='list-group-item-action pe-0'
+                        href='https://www.un.org/es/contact-us-0'
+                        target={"_blank"}
+                        rel='noreferer'
+                      >
                         Información
                       </a>
                     </li>
@@ -88,7 +100,11 @@ const Footer = () => {
                 {/* <!-- copyright text --> */}
                 <div className='copyright-text'>
                   © Derechos reservados 2022{" "}
-                  <a target={"_blank"} href='https://www.un.org/es/'>
+                  <a
+                    target={"_blank"}
+                    rel='noreferer'
+                    href='https://www.un.org/es/'
+                  >
                     {" "}
                     Naciones Unidas
                   </a>{" "}

@@ -25,7 +25,7 @@ const HeroHome = () => {
                     Educación inclusiva, equitativa y de calidad.
                   </h3>
                   <div className='animate__animated animate__fadeInUp animate__delay-3s mt-3 dealy-1500'>
-                    <a href='/' className='btn btn-grad'>
+                    <a href='/bolivia-en-la-cumbre' className='btn btn-grad'>
                       Ver más
                     </a>{" "}
                   </div>
@@ -42,7 +42,7 @@ const HeroHome = () => {
                     Somos la Cumbre
                   </h2>
                   <div className='animate__animated animate__fadeInUp animate__delay-3s mt-3 dealy-1500'>
-                    <a href='/' className='btn btn-grad'>
+                    <a href='/sobre-la-cumbre' className='btn btn-grad'>
                       Información
                     </a>{" "}
                   </div>
@@ -59,7 +59,7 @@ const HeroHome = () => {
                     Estamos aquí
                   </h2>
                   <div className='animate__animated animate__fadeInUp animate__delay-3s mt-3 dealy-1500'>
-                    <a href='/' className='btn btn-grad'>
+                    <a href='/dialogos-y-consultas' className='btn btn-grad'>
                       Ver más
                     </a>{" "}
                   </div>

@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
@@ -48,7 +47,7 @@ const NavBar = () => {
               {/* <!-- Menu item 3 Pages--> */}
               <li className='nav-item dropdown'>
                 <a className='nav-link' href='/dialogos-y-consultas'>
-                  DIÁLOGOS Y CONSULTAS NACIONALES
+                  DIÁLOGOS Y CONSULTAS
                 </a>
               </li>
 

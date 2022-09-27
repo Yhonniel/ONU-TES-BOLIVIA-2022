@@ -8,12 +8,7 @@ const NotiHome = () => {
           <div className='row'>
             <div className='col-12 col-lg-8 mx-auto'>
               <div className='title text-center'>
-                <span className='pre-title'>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit..
-                </span>
-                <h2>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                </h2>
+                <h3>Diálogos y Consultas</h3>
                 <p className='mb-0'>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Mollitia ipsa impedit ex voluptatem ad hic debitis facere
@@ -53,15 +48,8 @@ const NotiHome = () => {
                           <a href='#!'> Hace 1 día </a>
                         </div>
                         <a className='post-title' href='#!'>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit.
+                          Diálogo de Expertas y Expertos
                         </a>
-                        <p className='mb-0'>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Ab possimus inventore autem, debitis sed iste
-                          vitae odit deserunt nihil odio nemo quisquam natus eum
-                          repellendus laboriosam quidem ullam provident facere.
-                        </p>
                       </div>
                     </div>
                   </div>
@@ -79,15 +67,8 @@ const NotiHome = () => {
                           <a href='#!'> Hace 1 día </a>
                         </div>
                         <a className='post-title' href='#!'>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit.
+                          Diálogos de ONU y Pueblos Indígenas
                         </a>
-                        <p className='mb-0'>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Ab possimus inventore autem, debitis sed iste
-                          vitae odit deserunt nihil odio nemo quisquam natus eum
-                          repellendus laboriosam quidem ullam provident facere.
-                        </p>
                       </div>
                     </div>
                   </div>
@@ -106,15 +87,8 @@ const NotiHome = () => {
                           <a href='#!'> Hace 1 día </a>
                         </div>
                         <a className='post-title' href='#!'>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit.
+                          Diálogo de la Vía de acción 4
                         </a>
-                        <p className='mb-0'>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Ab possimus inventore autem, debitis sed iste
-                          vitae odit deserunt nihil odio nemo quisquam natus eum
-                          repellendus laboriosam quidem ullam provident facere.
-                        </p>
                       </div>
                     </div>
                   </div>
@@ -133,15 +107,84 @@ const NotiHome = () => {
                           <a href='#!'> Hace 1 día </a>
                         </div>
                         <a className='post-title' href='#!'>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit.
+                          Diálogo de la Vía de acción 5
                         </a>
-                        <p className='mb-0'>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Ab possimus inventore autem, debitis sed iste
-                          vitae odit deserunt nihil odio nemo quisquam natus eum
-                          repellendus laboriosam quidem ullam provident facere.
-                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className='item'>
+                    <div className='post'>
+                      <div className='post-info'>
+                        <span className='post-tag bg-grad text-white mb-3 clearfix'>
+                          <a href='#!'>EDUCACIÓN</a>
+                        </span>
+                        <div className='post-author'>
+                          <a href='#!'>ONU </a>
+                        </div>
+                        ,
+                        <div className='post-time'>
+                          <a href='#!'> Hace 1 día </a>
+                        </div>
+                        <a className='post-title' href='#!'>
+                          Diálogo del Pacto de unidad
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div className='item'>
+                    <div className='post'>
+                      <div className='post-info'>
+                        <span className='post-tag bg-grad text-white mb-3 clearfix'>
+                          <a href='#!'>EDUCACIÓN</a>
+                        </span>
+                        <div className='post-author'>
+                          <a href='#!'>ONU </a>
+                        </div>
+                        ,
+                        <div className='post-time'>
+                          <a href='#!'> Hace 1 día </a>
+                        </div>
+                        <a className='post-title' href='#!'>
+                          Diálogo con organizaciones estudiantes y juveniles
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div className='item'>
+                    <div className='post'>
+                      <div className='post-info'>
+                        <span className='post-tag bg-grad text-white mb-3 clearfix'>
+                          <a href='#!'>EDUCACIÓN</a>
+                        </span>
+                        <div className='post-author'>
+                          <a href='#!'>ONU </a>
+                        </div>
+                        ,
+                        <div className='post-time'>
+                          <a href='#!'> Hace 1 día </a>
+                        </div>
+                        <a className='post-title' href='#!'>
+                          Consulta U-Report
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div className='item'>
+                    <div className='post'>
+                      <div className='post-info'>
+                        <span className='post-tag bg-grad text-white mb-3 clearfix'>
+                          <a href='#!'>EDUCACIÓN</a>
+                        </span>
+                        <div className='post-author'>
+                          <a href='#!'>ONU </a>
+                        </div>
+                        ,
+                        <div className='post-time'>
+                          <a href='#!'> Hace 1 día </a>
+                        </div>
+                        <a className='post-title' href='#!'>
+                          Consultas del Ministerio de eduación
+                        </a>
                       </div>
                     </div>
                   </div>
