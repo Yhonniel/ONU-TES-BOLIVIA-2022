@@ -159,7 +159,7 @@ const BoliviaEnLaCumbre = () => {
                     permitieron elaborar los documentos de la posición de país
                     que están conformados por:
                   </p>
-                  <div className=''>
+                  <div>
                     {/* <!-- accordion default --> */}
                     <div class='mb-5'>
                       <div class='accordion' id='accordionExample'>
