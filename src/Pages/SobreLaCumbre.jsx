@@ -14,17 +14,130 @@ const SobreLaCumbre = () => {
           </div>
         </div>
       </div>
-      <section className='pb-3'>
+      <section className='blog-page'>
+        <div className='container'>
+          <div class='col-md-8 mx-auto'>
+            {/* <!-- Post item  with image--> */}
+            <div class='post-item'>
+              <div class='post-item-wrap'>
+                <div class='post-image'>
+                  <a href='/images/cumbre/8.png'>
+                    {" "}
+                    <img src='/images/cumbre/8.png' alt='' />{" "}
+                  </a>
+                </div>
+                <div class='post-item-desc'>
+                  <h2 class='mt-3'> Acerca de la Pre-Cumbre</h2>
+                  <p>
+                    Del 28 al 30 de junio de 2022 tuvo lugar en París la
+                    Precumbre de la Cumbre sobre la Transformación de la
+                    Educación. El 28 de junio se celebró un Día del Compromiso
+                    Mundial, donde se organizaron reuniones técnicas sobre las
+                    vías de acción temáticas y compromisos con las principales
+                    partes interesadas. La sesión de alto nivel, que contó con
+                    participación ministerial y de distintas partes interesadas,
+                    los días 29 y 30 de junio de 2022.
+                  </p>
+                  <p>
+                    El objetivo general de esta Precumbre fue aprovechar los
+                    debates en curso sobre la transformación de la educación,
+                    elaborar un contenido inicial, construir una visión
+                    compartida y proponer acciones para la Cumbre, de forma que
+                    se genere un mayor impulso durante los preparativos de la
+                    cita que tendrá lugar en septiembre. En particular, la
+                    Precumbre de la Cumbre brindó un foro integrador y abierto
+                    para:
+                  </p>
+                  <div>
+                    <ul class='list-group list-group-borderless list-group-icon-primary-bg'>
+                      <li class='list-group-item'>
+                        <i class='fa fa-check'></i> Que los países que hayan
+                        avanzado en sus consultas nacionales presenten los
+                        resultados preliminares de estas y expongan los
+                        elementos clave de su compromiso para transformar la
+                        educación, con el fin de inspirar a otros países para
+                        que presenten compromisos y medidas audaces en la Cumbre
+                        de septiembre.
+                      </li>
+                      <li class='list-group-item'>
+                        <i class='fa fa-check'></i> Que cada vía temática de
+                        acción presente las iniciativas más destacadas
+                        planteadas en los documentos de debate iniciales y
+                        explore las posibles coaliciones y asociaciones para
+                        ampliar el alcance de éstas durante el periodo previo a
+                        la Precumbre.
+                      </li>
+                      <li class='list-group-item'>
+                        <i class='fa fa-check'></i> Crear impulso y marcar un
+                        hito clave hacia un movimiento mundial por la educación,
+                        donde se muestre a los países pioneros y los líderes en
+                        educación, se ofrezca una plataforma para que niños,
+                        jóvenes, estudiantes, padres y profesores expongan sus
+                        opiniones y hagan oír su voz y se permita que las partes
+                        interesadas se reúnan y unan sus fuerzas para
+                        transformar la educación.
+                      </li>
+                    </ul>
+                    <div className='mt-5'>
+                      <ul className='list-group list-group-borderless'>
+                        <li className='list-group-item'>
+                          <a
+                            target={"_blank"}
+                            href='https://transformingeducationsummit.sdg4education2030.org/TESPreSummitProgramme'
+                          >
+                            <i className='fa fa-link fa-fw text-info'></i> Mira
+                            el programa y todos los eventos de la Pre-Cumbre
+                          </a>
+                        </li>
+                        <li className='list-group-item'>
+                          <a
+                            target={"_blank"}
+                            href='https://www.un.org/es/transforming-education-summit/pre-summit'
+                          >
+                            <i className='fa fa-link fa-fw text-info'></i> Más
+                            información sobre la Pre-Cumbre
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class='post-item-desc'>
+                  <h2 class='mt-3'>
+                    {" "}
+                    Cumbre de las Naciones Unidas sobre la Transformación de la
+                    Educación
+                  </h2>
+                  <p>
+                    El Secretario General de las Naciones Unidas convocó a una
+                    Cumbre para la Transformación de la Educación, durante la
+                    77ª Asamblea General de la ONU, que se llevará a cabo el 19
+                    de septiembre de 2022 en Nueva York.
+                  </p>
+                  <p>
+                    El objetivo de esta Cumbre es movilizar la ambición
+                    política, la acción, las soluciones y la solidaridad para
+                    transformar la educación: hacer un balance de los esfuerzos
+                    para recuperar las pérdidas de aprendizaje relacionadas con
+                    la pandemia; reimaginar los sistemas educativos para el
+                    mundo de hoy y de mañana; y revitalizar los esfuerzos
+                    nacionales y mundiales para alcanzar el ODS-4.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className='pb-3 py-2'>
         <div className='container'>
           <div className='row'>
             {/* <!-- column 1 --> */}
             <div className='col-md-4'>
               {/* <!-- title --> */}
 
-              <h2 className='h1'>
-                Cumbre de las Naciones Unidas para la Transformación de la
-                Educación
-              </h2>
+              <h2>La Vías de acción de la Cumbre</h2>
               <p>
                 La Cumbre cuenta con 5 Vías de Acción que están centradas en
                 áreas específicas que necesitan atención, las cuales son
@@ -120,23 +233,6 @@ const SobreLaCumbre = () => {
                 </p>
               </div>
             </div>
-          </div>
-        </div>
-        <div className='row'>
-          <div className='col-12 col-lg-8 mx-auto text-center mt-5'>
-            <h6>
-              Conoce cómo La Cumbre ofrece una oportunidad única para elevar la
-              educación a la cima de la agenda política mundial y movilizar la
-              acción, la aspiración, la solidaridad y las soluciones necesarias
-              para recuperar las pérdidas de aprendizaje.
-            </h6>
-            <a
-              target={"_blank"}
-              className='btn btn-grad'
-              href='https://www.un.org/es/transforming-education-summit'
-            >
-              Vámos
-            </a>
           </div>
         </div>
       </section>

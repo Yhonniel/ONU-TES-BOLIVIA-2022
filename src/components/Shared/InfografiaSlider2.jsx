@@ -60,7 +60,13 @@ const InfografiaSlider2 = () => {
               </div>
             </div>
             {/* <!--testimonials right--> */}
-            <div className='col-lg-6 d-none d-lg-block bg-light p-0 img-home-3'></div>
+            <div className='col-lg-6 d-none d-lg-block'>
+              <img
+                className='img-home-3'
+                src='/images/infografias/A.png'
+                alt='img'
+              />
+            </div>
           </div>
         </div>
       </section>
