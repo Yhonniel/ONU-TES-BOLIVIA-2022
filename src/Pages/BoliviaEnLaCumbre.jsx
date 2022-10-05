@@ -16,11 +16,11 @@ const BoliviaEnLaCumbre = () => {
       </div>
       <section className='blog-page'>
         <div className='container'>
-          <div class='col-md-8 mx-auto'>
+          <div className='col-md-8 mx-auto'>
             {/* <!-- Post item  with image--> */}
-            <div class='post-item'>
-              <div class='post-item-wrap'>
-                <div class='post-image tiny-slider testi-full dots-dark'>
+            <div className='post-item'>
+              <div className='post-item-wrap'>
+                <div className='post-image tiny-slider testi-full dots-dark'>
                   <div
                     className='tiny-slider-inner'
                     data-arrow='false'
@@ -39,8 +39,8 @@ const BoliviaEnLaCumbre = () => {
                     </div>
                   </div>
                 </div>
-                <div class='post-item-desc'>
-                  <h2 class='mt-3'>
+                <div className='post-item-desc mt-4'>
+                  <h2>
                     {" "}
                     Bolivia presente en la Pre-Cumbre sobre la Transformación de
                     la Educación
@@ -69,7 +69,7 @@ const BoliviaEnLaCumbre = () => {
                   </p>
 
                   <div className='mt-5'>
-                    <div class='post-image'>
+                    <div className='post-image'>
                       <img
                         className='rounded'
                         src='images/cumbre/2.jpg'
@@ -110,8 +110,8 @@ const BoliviaEnLaCumbre = () => {
                     </ul>
                   </div>
                 </div>
-                <div class='post-item-desc py-0'>
-                  <h2 class='mt-3'>Documentos de la Posición de Bolivia</h2>
+                <div className='post-item-desc'>
+                  <h2>Documentos de la Posición de Bolivia</h2>
                   <p>
                     El 6 de mayo de 2022, en una reunión de coordinación llevada
                     a cabo en Cancillería, participaron autoridades y
@@ -161,12 +161,12 @@ const BoliviaEnLaCumbre = () => {
                   </p>
                   <div>
                     {/* <!-- accordion default --> */}
-                    <div class='mb-5'>
-                      <div class='accordion' id='accordionExample'>
-                        <div class='accordion-item'>
-                          <h2 class='accordion-header' id='headingOne'>
+                    <div className='mb-5'>
+                      <div className='accordion' id='accordionExample'>
+                        <div className='accordion-item'>
+                          <h2 className='accordion-header' id='headingOne'>
                             <button
-                              class='accordion-button'
+                              className='accordion-button'
                               type='button'
                               data-bs-toggle='collapse'
                               data-bs-target='#collapseOne'
@@ -178,13 +178,13 @@ const BoliviaEnLaCumbre = () => {
                           </h2>
                           <div
                             id='collapseOne'
-                            class='accordion-collapse collapse show'
+                            className='accordion-collapse collapse show'
                             aria-labelledby='headingOne'
                             data-bs-parent='#accordionExample'
                           >
-                            <div class='accordion-body'>
-                              <ul class='list-group list-group-borderless'>
-                                <li class='list-group-item'>
+                            <div className='accordion-body'>
+                              <ul className='list-group list-group-borderless'>
+                                <li className='list-group-item'>
                                   <i className='fa fa-link fa-fw text-info'></i>{" "}
                                   <a href='#'>
                                     Descarga el Informe sobre las consultas y
@@ -196,10 +196,10 @@ const BoliviaEnLaCumbre = () => {
                             </div>
                           </div>
                         </div>
-                        <div class='accordion-item'>
-                          <h2 class='accordion-header' id='headingTwo'>
+                        <div className='accordion-item'>
+                          <h2 className='accordion-header' id='headingTwo'>
                             <button
-                              class='accordion-button collapsed'
+                              className='accordion-button collapsed'
                               type='button'
                               data-bs-toggle='collapse'
                               data-bs-target='#collapseTwo'
@@ -213,13 +213,13 @@ const BoliviaEnLaCumbre = () => {
                           </h2>
                           <div
                             id='collapseTwo'
-                            class='accordion-collapse collapse'
+                            className='accordion-collapse collapse'
                             aria-labelledby='headingTwo'
                             data-bs-parent='#accordionExample'
                           >
-                            <div class='accordion-body'>
-                              <ul class='list-group list-group-borderless'>
-                                <li class='list-group-item'>
+                            <div className='accordion-body'>
+                              <ul className='list-group list-group-borderless'>
+                                <li className='list-group-item'>
                                   <i className='fa fa-link fa-fw text-info'></i>{" "}
                                   <a href='#'>
                                     Descarga la Declaración de Compromisos de
@@ -230,10 +230,10 @@ const BoliviaEnLaCumbre = () => {
                             </div>
                           </div>
                         </div>
-                        <div class='accordion-item'>
-                          <h2 class='accordion-header' id='headingThree'>
+                        <div className='accordion-item'>
+                          <h2 className='accordion-header' id='headingThree'>
                             <button
-                              class='accordion-button collapsed'
+                              className='accordion-button collapsed'
                               type='button'
                               data-bs-toggle='collapse'
                               data-bs-target='#collapseThree'
@@ -245,13 +245,13 @@ const BoliviaEnLaCumbre = () => {
                           </h2>
                           <div
                             id='collapseThree'
-                            class='accordion-collapse collapse'
+                            className='accordion-collapse collapse'
                             aria-labelledby='headingThree'
                             data-bs-parent='#accordionExample'
                           >
-                            <div class='accordion-body'>
-                              <ul class='list-group list-group-borderless'>
-                                <li class='list-group-item'>
+                            <div className='accordion-body'>
+                              <ul className='list-group list-group-borderless'>
+                                <li className='list-group-item'>
                                   <i className='fa fa-link fa-fw text-info'></i>{" "}
                                   <a href='#'>
                                     Descarga el Documento de Posición País ante
@@ -280,12 +280,9 @@ const BoliviaEnLaCumbre = () => {
                     </div>
                   </div>
                 </div>
-                <div class='post-item-desc py-0'>
-                  <h2 class='mt-3'>
-                    {" "}
-                    Bolivia y la Transformación de la Educación
-                  </h2>
-                  <div class='post-image py-4'>
+                <div className='post-item-desc'>
+                  <h2> Bolivia y la Transformación de la Educación</h2>
+                  <div className='post-image py-4'>
                     <a href='/images/cumbre/9.png'>
                       {" "}
                       <img src='/images/cumbre/9.png' alt='' />{" "}
@@ -330,17 +327,17 @@ const BoliviaEnLaCumbre = () => {
                     El sistema educativo boliviano comprende tres subsistemas:
                   </p>
                   <div>
-                    <ul class='list-group list-group-borderless list-group-icon-primary-bg'>
-                      <li class='list-group-item'>
-                        <i class='fa fa-check'></i> Subsistema de Educación
+                    <ul className='list-group list-group-borderless list-group-icon-primary-bg'>
+                      <li className='list-group-item'>
+                        <i className='fa fa-check'></i> Subsistema de Educación
                         Regular.
                       </li>
-                      <li class='list-group-item'>
-                        <i class='fa fa-check'></i> Subsistema de Educación
+                      <li className='list-group-item'>
+                        <i className='fa fa-check'></i> Subsistema de Educación
                         Alternativa y Especial.
                       </li>
-                      <li class='list-group-item'>
-                        <i class='fa fa-check'></i> Subsistema de Educación
+                      <li className='list-group-item'>
+                        <i className='fa fa-check'></i> Subsistema de Educación
                         Superior de Formación Profesional.
                       </li>
                     </ul>
@@ -384,7 +381,7 @@ const BoliviaEnLaCumbre = () => {
                   </div>
                 </div>
                 <div className='post-item-desc'>
-                  <h2 className='mt-3'>
+                  <h2>
                     Para más información y acceder a datos e indicadores sobre
                     la educación en Bolivia visita:
                   </h2>
@@ -407,7 +404,7 @@ const BoliviaEnLaCumbre = () => {
                       </li>
                     </ul>
                   </div>
-                  <div class='post-image mt-4'>
+                  <div className='post-image mt-4'>
                     <a href='/images/cumbre/10.png'>
                       {" "}
                       <img src='/images/cumbre/10.png' alt='' />{" "}
