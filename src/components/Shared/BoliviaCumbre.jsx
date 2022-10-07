@@ -114,7 +114,7 @@ const BoliviaCumbre = () => {
                         llegar al 2025 con una educación de calidad,
                         participativa, en igualdad de condiciones, erradicando
                         la violencia para todas y todos los bolivianos.
-                        <div className='col-md-6 mb-4 mt-4'>
+                        {/* <div className='col-md-6 mb-4 mt-4'>
                           <ul className='list-group list-group-borderless'>
                             <li className='list-group-item'>
                               <a
@@ -138,8 +138,8 @@ const BoliviaCumbre = () => {
                               </a>
                             </li>
                           </ul>
-                        </div>
-                        <div>
+                        </div> */}
+                        {/* <div>
                           <p>
                             <a
                               target={"_blank"}
@@ -150,7 +150,7 @@ const BoliviaCumbre = () => {
                               Diálogos Nacionales presentado para la Pre-Cumbre.
                             </a>
                           </p>
-                        </div>
+                        </div> */}
                       </div>
                       <div className='modal-footer'>
                         <button type='button' className='btn'>
