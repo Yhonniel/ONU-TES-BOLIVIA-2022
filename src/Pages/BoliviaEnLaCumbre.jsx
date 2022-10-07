@@ -3,18 +3,18 @@ import React from "react";
 const BoliviaEnLaCumbre = () => {
   return (
     <>
-      <div className='left bg-grad pattern-overlay-4'>
+      <div className='left bg-grad pattern-overlay-4 p-5'>
         <div className='container'>
           <div className='row all-text-white'>
             <div className='col-md-12 align-self-center position-relative'>
-              <h1 className='fw-bold display-1 mb-2 mb-md-n4 mt-9'>
+              <h1 className='fw-bold display-1 mb-2 mb-md-n4 mt-7'>
                 Bolivia en la Cumbre
               </h1>
             </div>
           </div>
         </div>
       </div>
-      <section className='blog-page'>
+      <section className='blog-page mt-5 py-0'>
         <div className='container'>
           <div className='col-md-8 mx-auto'>
             {/* <!-- Post item  with image--> */}
@@ -29,12 +29,12 @@ const BoliviaEnLaCumbre = () => {
                   >
                     <div className='item'>
                       <div className='testimonials-wrap'>
-                        <img src='/images/infografias/E.png' alt='' />{" "}
+                        <img src='/images/infografias/E.png' alt='img' />{" "}
                       </div>
                     </div>
                     <div className='item'>
                       <div className='testimonials-wrap'>
-                        <img src='/images/infografias/F.png' alt='' />{" "}
+                        <img src='/images/infografias/F.png' alt='img' />{" "}
                       </div>
                     </div>
                   </div>
@@ -94,20 +94,22 @@ const BoliviaEnLaCumbre = () => {
                       </span>
                     </div>
                   </div>
-                  <div className='mt-5'>
-                    <ul className='list-group list-group-borderless'>
-                      <li className='list-group-item'>
-                        <a
-                          target={"_blank"}
-                          href='https://transformingeducationsummit.sdg4education2030.org/BoliviaNationalConsultationReport'
-                        >
-                          <i className='fa fa-link fa-fw text-info'></i> Accede
-                          al Informe Preliminar del Estado Plurinacional de
-                          Bolivia <br /> sobre las Consultas y Diálogos
-                          Nacionales presentado para la Pre-Cumbre
-                        </a>
-                      </li>
-                    </ul>
+                  <div className='row'>
+                    <div className='col-12 col-lg-8 mx-auto text-center mt-5'>
+                      <h6>
+                        Accede al Informe Preliminar del Estado Plurinacional de
+                        Bolivia sobre las Consultas y Diálogos Nacionales
+                        presentado para la Pre-Cumbre
+                      </h6>
+                      <a
+                        className='btn btn-grad'
+                        href='https://transformingeducationsummit.sdg4education2030.org/BoliviaNationalConsultationReport'
+                        target='_blank'
+                        rel='noopener noreferrer'
+                      >
+                        Más información
+                      </a>
+                    </div>
                   </div>
                 </div>
                 <div className='post-item-desc'>
@@ -134,8 +136,9 @@ const BoliviaEnLaCumbre = () => {
                     para preparar los documentos de la posición país ante la
                     Cumbre. Gracias a este trabajo coordinado se elaboró un{" "}
                     <a
-                      target={"_blank"}
                       href='https://drive.google.com/file/d/1WAoHF0kutrKUsYPwVqBHkIXCnRcLnl2P/view?usp=sharing'
+                      target='_blank'
+                      rel='noopener noreferrer'
                     >
                       Documento Base de Discusión{" "}
                     </a>
@@ -145,8 +148,9 @@ const BoliviaEnLaCumbre = () => {
                   <p>
                     También se establecieron una serie de{" "}
                     <a
-                      target={"_blank"}
                       href='https://drive.google.com/file/d/1rbpklqLAcSAgZmjTi3Jw55rrgSlXPq49/view?usp=sharing'
+                      target='_blank'
+                      rel='noopener noreferrer'
                     >
                       {" "}
                       Preguntas Orientativas{" "}
@@ -186,7 +190,11 @@ const BoliviaEnLaCumbre = () => {
                               <ul className='list-group list-group-borderless'>
                                 <li className='list-group-item'>
                                   <i className='fa fa-link fa-fw text-info'></i>{" "}
-                                  <a href='#'>
+                                  <a
+                                    href='#'
+                                    target='_blank'
+                                    rel='noopener noreferrer'
+                                  >
                                     Descarga el Informe sobre las consultas y
                                     diálogos nacionales para transformar la
                                     educación
@@ -221,7 +229,11 @@ const BoliviaEnLaCumbre = () => {
                               <ul className='list-group list-group-borderless'>
                                 <li className='list-group-item'>
                                   <i className='fa fa-link fa-fw text-info'></i>{" "}
-                                  <a href='#'>
+                                  <a
+                                    href='#'
+                                    target='_blank'
+                                    rel='noopener noreferrer'
+                                  >
                                     Descarga la Declaración de Compromisos de
                                     Bolivia para transformar la educación
                                   </a>
@@ -253,7 +265,11 @@ const BoliviaEnLaCumbre = () => {
                               <ul className='list-group list-group-borderless'>
                                 <li className='list-group-item'>
                                   <i className='fa fa-link fa-fw text-info'></i>{" "}
-                                  <a href='#'>
+                                  <a
+                                    href='#'
+                                    target='_blank'
+                                    rel='noopener noreferrer'
+                                  >
                                     Descarga el Documento de Posición País ante
                                     la Cumbre
                                   </a>
@@ -262,19 +278,21 @@ const BoliviaEnLaCumbre = () => {
                             </div>
                           </div>
                         </div>
-                        <div className='mt-5'>
-                          <ul className='list-group list-group-borderless'>
-                            <li className='list-group-item'>
-                              <a
-                                target={"_blank"}
-                                href='https://transformingeducationsummit.sdg4education2030.org/country/bo'
-                              >
-                                <i className='fa fa-link fa-fw text-info'></i>{" "}
-                                Accede al Portal de Bolivia en el Knowledge Hub
-                                de la Cumbre
-                              </a>
-                            </li>
-                          </ul>
+                        <div className='row'>
+                          <div className='col-12 col-lg-8 mx-auto text-center mt-5'>
+                            <h6>
+                              Accede al Portal de Bolivia en el Knowledge Hub de
+                              la Cumbre
+                            </h6>
+                            <a
+                              className='btn btn-grad'
+                              target='_blank'
+                              rel='noopener noreferrer'
+                              href='https://transformingeducationsummit.sdg4education2030.org/country/bo'
+                            >
+                              Más información
+                            </a>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -282,17 +300,33 @@ const BoliviaEnLaCumbre = () => {
                 </div>
                 <div className='post-item-desc'>
                   <h2> Bolivia y la Transformación de la Educación</h2>
-                  <div className='post-image py-4'>
-                    <a href='/images/cumbre/9.png'>
-                      {" "}
-                      <img src='/images/cumbre/9.png' alt='' />{" "}
-                    </a>
+                  <div className='post-image tiny-slider testi-full dots-dark'>
+                    <div
+                      className='tiny-slider-inner'
+                      data-arrow='false'
+                      data-items='1'
+                      data-autoplay='3800'
+                    >
+                      <div className='item'>
+                        <div className='testimonials-wrap'>
+                          <img src='/images/cumbre/9.png' alt='img' />{" "}
+                        </div>
+                      </div>
+                      <div className='item'>
+                        <div className='testimonials-wrap'>
+                          <img src='/images/cumbre/10.png' alt='img' />{" "}
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                  <p>
-                    La educación en Bolivia está regulada en la Ley 070 de
-                    Educación Avelino Siñazi-Elizardo Pérez, de 20 de diciembre
-                    de 2010.
-                  </p>
+                  <div className='mt-5'>
+                    <p>
+                      La educación en Bolivia está regulada en la Ley 070 de
+                      Educación Avelino Siñazi-Elizardo Pérez, de 20 de
+                      diciembre de 2010.
+                    </p>
+                  </div>
+
                   <p>
                     La Ley 070 reconoce la educación como un derecho
                     fundamental. Así, en su artículo 1.1 establece que “Toda
@@ -305,6 +339,7 @@ const BoliviaEnLaCumbre = () => {
                     educativas fiscales (públicas), instituciones educativas
                     privadas y de convenio.
                   </p>
+
                   <p>
                     Las unidades educativas privadas, reconocidas en todos los
                     niveles y modalidades, se rigen por las políticas, planes,
@@ -314,6 +349,23 @@ const BoliviaEnLaCumbre = () => {
                     establecidos en reglamentación específica aprobada por el
                     Ministerio de Educación.
                   </p>
+                  <div className='row mb-5'>
+                    <div className='col-12 col-lg-8 mx-auto text-center mt-5'>
+                      <h6>
+                        Accede a la Ley Nº 070: Ley de la Educación “Avelino
+                        Siñani - Elizardo Pérez”
+                      </h6>
+                      <a
+                        className='btn btn-grad'
+                        target='_blank'
+                        rel='noopener noreferrer'
+                        href='https://www.minedu.gob.bo/index.php?option=com_content&view=article&id=1524:ley-avelino-sinani-elizardo-perez&catid=233&Itemid=933'
+                      >
+                        Más información
+                      </a>
+                    </div>
+                  </div>
+
                   <p>
                     Las unidades educativas de convenio son instituciones
                     administradas por entidades religiosas, sin ánimo de lucro y
@@ -342,20 +394,7 @@ const BoliviaEnLaCumbre = () => {
                       </li>
                     </ul>
                   </div>
-                  <div className='mt-3'>
-                    <ul className='list-group list-group-borderless'>
-                      <li className='list-group-item'>
-                        <a
-                          target={"_blank"}
-                          href='https://www.minedu.gob.bo/index.php?option=com_content&view=article&id=1524:ley-avelino-sinani-elizardo-perez&catid=233&Itemid=933'
-                        >
-                          <i className='fa fa-link fa-fw text-info'></i> Accede
-                          a la Ley Nº 070: Ley de la Educación “Avelino Siñani -
-                          Elizardo Pérez”
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
+
                   <div className='mt-4'>
                     <p>
                       A partir de 2021, el gobierno del Presidente Luis Arce
@@ -364,51 +403,52 @@ const BoliviaEnLaCumbre = () => {
                       proyecta para llegar al bicentenario en 2025 con una
                       educación de calidad para todas y todos.
                     </p>
-                    <div>
-                      <ul className='list-group list-group-borderless'>
-                        <li className='list-group-item'>
-                          <a
-                            target={"_blank"}
-                            href='https://drive.google.com/file/d/1jidtNpBKhJTZhWLNgbcJvRifsrMOv7gC/view?usp=sharing'
-                          >
-                            <i className='fa fa-link fa-fw text-info'></i>{" "}
-                            Descarga las Líneas de acción prioritarias del
-                            Ministerio de Educación 2022-2025
-                          </a>
-                        </li>
-                      </ul>
+                    <div className='row'>
+                      <div className='col-12 col-lg-8 mx-auto text-center mt-5'>
+                        <h6>
+                          Descarga las Líneas de acción prioritarias del
+                          Ministerio de Educación 2022-2025
+                        </h6>
+                        <a
+                          className='btn btn-grad'
+                          target='_blank'
+                          rel='noopener noreferrer'
+                          href='https://drive.google.com/file/d/1jidtNpBKhJTZhWLNgbcJvRifsrMOv7gC/view?usp=sharing'
+                        >
+                          Más información
+                        </a>
+                      </div>
                     </div>
                   </div>
                 </div>
                 <div className='post-item-desc'>
-                  <h2>
-                    Para más información y acceder a datos e indicadores sobre
-                    la educación en Bolivia visita:
-                  </h2>
-                  <div className='mt-4'>
-                    <ul className='list-group list-group-borderless'>
-                      <li className='list-group-item'>
-                        <a target={"_blank"} href='https://seie.minedu.gob.bo/'>
-                          <i className='fa fa-link fa-fw text-info'></i> Sistema
-                          de Estadística e Indicadores Educativos de Bolivia
-                        </a>
-                      </li>
-                      <li className='list-group-item'>
-                        <a
-                          target={"_blank"}
-                          href='https://reportes.sie.gob.bo/reporteestadistico/'
-                        >
-                          <i className='fa fa-link fa-fw text-info'></i> Reporte
-                          Educativos de Bolivia
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div className='post-image mt-4'>
-                    <a href='/images/cumbre/10.png'>
-                      {" "}
-                      <img src='/images/cumbre/10.png' alt='' />{" "}
-                    </a>
+                  <div className='row'>
+                    <div className='col-12 col-lg-8 mx-auto text-center mt-5'>
+                      <h6>
+                        Para más información y acceder a datos e indicadores
+                        sobre la educación en Bolivia visita:
+                        <br />{" "}
+                        <div className='mt-2'>
+                          <a
+                            target='_blank'
+                            rel='noopener noreferrer'
+                            href='https://seie.minedu.gob.bo/'
+                          >
+                            Sistema de Estadística e Indicadores Educativos de
+                            Bolivia
+                          </a>{" "}
+                        </div>
+                        <div className='mt-2'>
+                          <a
+                            target='_blank'
+                            rel='noopener noreferrer'
+                            href='https://reportes.sie.gob.bo/reporteestadistico/'
+                          >
+                            Reporte Educativos de Bolivia
+                          </a>
+                        </div>
+                      </h6>
+                    </div>
                   </div>
                 </div>
               </div>

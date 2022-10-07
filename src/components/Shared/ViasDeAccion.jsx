@@ -3,110 +3,99 @@ import React from "react";
 const ViasDeAccion = () => {
   return (
     <>
-      <section>
-        <div className='container'>
-          <div className='row'>
-            {/* <!-- column 1 --> */}
-            <div className='col-md-4'>
-              {/* <!-- title --> */}
+      <div className='row'>
+        {/* <!-- column 1 --> */}
+        <div className='col-md-4'>
+          {/* <!-- title --> */}
 
-              <h2>La Vías de acción de la Cumbre</h2>
-              <p>
-                La Cumbre cuenta con 5 Vías de Acción que están centradas en
-                áreas específicas que necesitan atención, las cuales son
-                fundamentales para transformar la educación. Las vías de acción
-                se guían por la Agenda 2030 y sus objetivos y metas relacionados
-                con la educación, concretamente el Objetivo de Desarrollo
-                Sostenible 4.
-              </p>
-              {/* <!-- service item --> */}
-              <div className='bg-light p-4 p-lg-5 '>
-                <span className='display-5 icon-primary'>
-                  <i className='ti-ruler-pencil'></i>
-                </span>
-                <h5>
-                  {" "}
-                  1. Escuelas inclusivas, equitativas, seguras y saludables
-                </h5>
-                <p className='mb-0'>
-                  La educación está en crisis. Los altos índices de pobreza,
-                  exclusión y desigualdad de género siguen impidiendo el
-                  aprendizaje de millones de personas. Además, la COVID-19 puso
-                  de manifiesto las desigualdades en el acceso y la calidad de
-                  la educación.
-                </p>
-              </div>
-            </div>
-
-            {/* <!-- column 2 --> */}
-            <div className='col-md-4 mt-5'>
-              {/* <!-- service item --> */}
-              <div className='bg-light p-4 p-lg-5 mb-5'>
-                <span className='display-5'>
-                  <i className='ti-pencil-alt'></i>
-                </span>
-                <h5>
-                  2. Aprendizaje y competencias para la vida, el trabajo y el
-                  desarrollo sostenible
-                </h5>
-                <p className='mb-0'>
-                  Existe una crisis en el aprendizaje de destrezas básicas,
-                  alfabetización y habilidades numéricas entre los jóvenes. En
-                  2020 más de 770 millones de personas siguen careciendo de
-                  aptitudes de alfabetización básica, de las cuales dos tercios
-                  son mujeres.
-                </p>
-              </div>
-              {/* <!-- service item --> */}
-              <div className='bg-light p-4 p-lg-5 mb-5'>
-                <span className='display-5 text-warning'>
-                  <i className='ti-image'></i>
-                </span>
-                <h5>3. Docentes, enseñanza y profesión docente</h5>
-                <p className='mb-0'>
-                  Los profesores son esenciales para lograr los resultados de
-                  aprendizaje, el ODS 4 y la transformación de la educación. Sin
-                  embargo, tanto los profesores como el resto del personal
-                  educativo se enfrentan a cuatro grandes retos.
-                </p>
-              </div>
-            </div>
-
-            {/* <!-- column 3 --> */}
-            <div className='col-md-4'>
-              {/* <!-- service item --> */}
-              <div className='bg-light p-4 p-lg-5 mb-5'>
-                <span className='display-5 text-info'>
-                  <i className='ti-world icon-primary'></i>
-                </span>
-                <h5>4. Aprendizaje y transformación digital</h5>
-                <p className='mb-0'>
-                  La crisis de COVID-19 impulsó innovaciones sin precedentes en
-                  la enseñanza a distancia mediante el aprovechamiento de las
-                  tecnologías digitales.Estas desigualdades en el acceso
-                  implicaron la exclusión de las oportunidades de aprendizaje de
-                  algunos grupos, como las mujeres jóvenes y las niñas.
-                </p>
-              </div>
-              {/* <!-- service item --> */}
-              <div className='bg-light p-4 p-lg-5 mb-5'>
-                <span className='display-5 text-primary'>
-                  <i className='ti-wallet'></i>
-                </span>
-                <h5>5. Financiación de la educación</h5>
-                <p className='mb-0'>
-                  Aunque el gasto mundial en educación ha crecido en general,
-                  este no ha resultado fructífero debido al elevado crecimiento
-                  de la población, los costes desorbitados de la gestión de la
-                  educación durante la pandemia de COVID-19 y el desvío de la
-                  ayuda a otras emergencias, lo que ha dejado un enorme déficit
-                  financiero mundial en esta materia educativa.
-                </p>
-              </div>
-            </div>
+          <h2>La Vías de acción de la Cumbre</h2>
+          <p>
+            La Cumbre cuenta con 5 Vías de Acción que están centradas en áreas
+            específicas que necesitan atención, las cuales son fundamentales
+            para transformar la educación.
+          </p>
+          {/* <!-- service item --> */}
+          <div className='bg-light p-3 p-lg-3 '>
+            <span className='display-5 icon-primary'>
+              <i className='ti-ruler-pencil'></i>
+            </span>
+            <h5> 1. Escuelas inclusivas, equitativas, seguras y saludables</h5>
+            <p className='mb-0'>
+              La educación inclusiva y transformadora debe garantizar que todos
+              los alumnos tengan un acceso y participen sin trabas en la
+              educación, que estén seguros y sanos, libres de violencia y
+              discriminación, y que reciban apoyo con servicios de atención
+              integral dentro del entorno escolar.
+            </p>
           </div>
         </div>
-      </section>
+
+        {/* <!-- column 2 --> */}
+        <div className='col-md-4 mt-5'>
+          {/* <!-- service item --> */}
+          <div className='bg-light p-3 p-lg-3 mb-5'>
+            <span className='display-6'>
+              <i className='ti-pencil-alt'></i>
+            </span>
+            <h5>
+              2. Aprendizaje y competencias para la vida, el trabajo y el
+              desarrollo sostenible
+            </h5>
+            <p className='mb-0'>
+              Transformar la educación significa capacitar a los alumnos con
+              conocimientos, competencias, valores y actitudes para que sean
+              resilientes, tengan capacidad de adaptación y estén preparados
+              para un futuro incierto, contribuyendo al mismo tiempo al
+              bienestar humano y planetario y al desarrollo sostenible.
+            </p>
+          </div>
+          {/* <!-- service item --> */}
+          <div className='bg-light p-3 p-lg-3 mb-5'>
+            <span className='display-6 text-warning'>
+              <i className='ti-image'></i>
+            </span>
+            <h5>3. Docentes, enseñanza y profesión docente</h5>
+            <p className='mb-0'>
+              La aceleración del progreso hacia el ODS 4 y la transformación de
+              la educación requieren un número adecuado de profesores para
+              satisfacer las necesidades de los alumnos, así como la formación,
+              motivación y apoyo de todo el personal educativo.
+            </p>
+          </div>
+        </div>
+
+        {/* <!-- column 3 --> */}
+        <div className='col-md-4'>
+          {/* <!-- service item --> */}
+          <div className='bg-light p-3 p-lg-3 mb-5'>
+            <span className='display-6 text-info'>
+              <i className='ti-world icon-primary'></i>
+            </span>
+            <h5>4. Aprendizaje y transformación digital</h5>
+            <p className='mb-0'>
+              La transformación digital requiere el aprovechamiento de la
+              tecnología como parte de esfuerzos sistémicos más amplios para
+              transformar la educación, haciéndola más inclusiva, equitativa,
+              eficaz, pertinente y sostenible.
+            </p>
+          </div>
+          {/* <!-- service item --> */}
+          <div className='bg-light p-3 p-lg-3 mb-5'>
+            <span className='display-6 text-primary'>
+              <i className='ti-wallet'></i>
+            </span>
+            <h5>5. Financiación de la educación</h5>
+            <p className='mb-0'>
+              El primer paso hacia la transformación es instar a los proveedores
+              de fondos a reorientar los recursos hacia la educación para
+              subsanar el déficit de financiación. Posteriormente, los países
+              deben contar con una financiación significativamente mayor y
+              sostenible para alcanzar el ODS 4 y estos recursos deben asignarse
+              y supervisarse de forma equitativa y eficaz
+            </p>
+          </div>
+        </div>
+      </div>
     </>
   );
 };

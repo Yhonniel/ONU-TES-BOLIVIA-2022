@@ -1,30 +1,28 @@
 import React from "react";
+import ViasDeAccion from "../components/Shared/ViasDeAccion";
 
 const SobreLaCumbre = () => {
   return (
     <>
-      <div className='left bg-grad pattern-overlay-4'>
+      <div className='left bg-grad pattern-overlay-4 p-5'>
         <div className='container'>
           <div className='row all-text-white'>
             <div className='col-md-12 align-self-center position-relative'>
-              <h1 className='fw-bold display-1 mb-2 mb-md-n4 mt-9'>
+              <h1 className='fw-bold display-1 mb-2 mb-md-n4 mt-7'>
                 Sobre La Cumbre
               </h1>
             </div>
           </div>
         </div>
       </div>
-      <section className='blog-page'>
+      <section className='blog-page py-0 mt-5'>
         <div className='container'>
           <div className='col-md-8 mx-auto'>
             {/* <!-- Post item  with image--> */}
             <div className='post-item'>
               <div className='post-item-wrap'>
                 <div className='post-image'>
-                  <a href='/images/cumbre/8.png'>
-                    {" "}
-                    <img src='/images/cumbre/8.png' alt='' />{" "}
-                  </a>
+                  <img src='/images/cumbre/8.png' alt='' />{" "}
                 </div>
                 <div className='post-item-desc'>
                   <h2 className='mt-3'> Acerca de la Pre-Cumbre</h2>
@@ -78,27 +76,29 @@ const SobreLaCumbre = () => {
                         para transformar la educación.
                       </li>
                     </ul>
-                    <div className='mt-5'>
-                      <ul className='list-group list-group-borderless'>
-                        <li className='list-group-item'>
+                    <div className='row'>
+                      <div className='col-12 col-lg-8 mx-auto text-center mt-5'>
+                        <h6>
                           <a
-                            target={"_blank"}
+                            target='_blank'
+                            rel='noopener noreferrer'
                             href='https://transformingeducationsummit.sdg4education2030.org/TESPreSummitProgramme'
                           >
-                            <i className='fa fa-link fa-fw text-info'></i> Mira
-                            el programa y todos los eventos de la Pre-Cumbre
-                          </a>
-                        </li>
-                        <li className='list-group-item'>
-                          <a
-                            target={"_blank"}
-                            href='https://www.un.org/es/transforming-education-summit/pre-summit'
-                          >
-                            <i className='fa fa-link fa-fw text-info'></i> Más
-                            información sobre la Pre-Cumbre
-                          </a>
-                        </li>
-                      </ul>
+                            Mira el programa y todos los eventos de la
+                            Pre-Cumbre{" "}
+                          </a>{" "}
+                          <br />{" "}
+                          <div className='mt-2'>
+                            <a
+                              target='_blank'
+                              rel='noopener noreferrer'
+                              href='https://www.un.org/es/transforming-education-summit/pre-summit'
+                            >
+                              Obtén más información sobre la Pre-Cumbre
+                            </a>
+                          </div>
+                        </h6>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -125,184 +125,11 @@ const SobreLaCumbre = () => {
                   </p>
                 </div>
                 <div className='post-item-desc'>
-                  <h2> La Vías de acción de la Cumbre</h2>
-                  <p>
-                    La Cumbre cuenta con 5 Vías de Acción que están centradas en
-                    áreas específicas que necesitan atención, las cuales son
-                    fundamentales para transformar la educación. Las vías de
-                    acción se guían por la Agenda 2030 y sus objetivos y metas
-                    relacionados con la educación, concretamente el Objetivo de
-                    Desarrollo Sostenible 4.
-                  </p>
-
-                  {/* <!-- accordion default --> */}
-                  <div>
-                    <div className='accordion' id='accordionExample'>
-                      <div className='accordion-item'>
-                        <h2 className='accordion-header' id='headingOne'>
-                          <button
-                            className='accordion-button'
-                            type='button'
-                            data-bs-toggle='collapse'
-                            data-bs-target='#collapseOne'
-                            aria-expanded='true'
-                            aria-controls='collapseOne'
-                          >
-                            1. Escuelas inclusivas, equitativas, seguras y
-                            saludables
-                          </button>
-                        </h2>
-                        <div
-                          id='collapseOne'
-                          className='accordion-collapse collapse show'
-                          aria-labelledby='headingOne'
-                          data-bs-parent='#accordionExample'
-                        >
-                          <div className='accordion-body'>
-                            <p>
-                              La educación está en crisis. Los altos índices de
-                              pobreza, exclusión y desigualdad de género siguen
-                              impidiendo el aprendizaje de millones de personas.
-                              Además, la COVID-19 puso de manifiesto las
-                              desigualdades en el acceso y la calidad de la
-                              educación.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                      <div className='accordion-item'>
-                        <h2 className='accordion-header' id='headingTwo'>
-                          <button
-                            className='accordion-button collapsed'
-                            type='button'
-                            data-bs-toggle='collapse'
-                            data-bs-target='#collapseTwo'
-                            aria-expanded='false'
-                            aria-controls='collapseTwo'
-                          >
-                            2. Aprendizaje y competencias para la vida, el
-                            trabajo y el desarrollo sostenible
-                          </button>
-                        </h2>
-                        <div
-                          id='collapseTwo'
-                          className='accordion-collapse collapse'
-                          aria-labelledby='headingTwo'
-                          data-bs-parent='#accordionExample'
-                        >
-                          <div className='accordion-body'>
-                            <p>
-                              Existe una crisis en el aprendizaje de destrezas
-                              básicas, alfabetización y habilidades numéricas
-                              entre los jóvenes. En 2020 más de 770 millones de
-                              personas siguen careciendo de aptitudes de
-                              alfabetización básica, de las cuales dos tercios
-                              son mujeres.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                      <div className='accordion-item'>
-                        <h2 className='accordion-header' id='headingThree'>
-                          <button
-                            className='accordion-button collapsed'
-                            type='button'
-                            data-bs-toggle='collapse'
-                            data-bs-target='#collapseThree'
-                            aria-expanded='false'
-                            aria-controls='collapseThree'
-                          >
-                            3. Docentes, enseñanza y profesión docente
-                          </button>
-                        </h2>
-                        <div
-                          id='collapseThree'
-                          className='accordion-collapse collapse'
-                          aria-labelledby='headingThree'
-                          data-bs-parent='#accordionExample'
-                        >
-                          <div className='accordion-body'>
-                            <p>
-                              Los profesores son esenciales para lograr los
-                              resultados de aprendizaje, el ODS 4 y la
-                              transformación de la educación. Sin embargo, tanto
-                              los profesores como el resto del personal
-                              educativo se enfrentan a cuatro grandes retos.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                      <div className='accordion-item'>
-                        <h2 className='accordion-header' id='headingFour'>
-                          <button
-                            className='accordion-button collapsed'
-                            type='button'
-                            data-bs-toggle='collapse'
-                            data-bs-target='#collapseFour'
-                            aria-expanded='false'
-                            aria-controls='collapseFour'
-                          >
-                            4. Aprendizaje y transformación digital
-                          </button>
-                        </h2>
-                        <div
-                          id='collapseFour'
-                          className='accordion-collapse collapse'
-                          aria-labelledby='headingFour'
-                          data-bs-parent='#accordionExample'
-                        >
-                          <div className='accordion-body'>
-                            <p>
-                              La crisis de COVID-19 impulsó innovaciones sin
-                              precedentes en la enseñanza a distancia mediante
-                              el aprovechamiento de las tecnologías
-                              digitales.Estas desigualdades en el acceso
-                              implicaron la exclusión de las oportunidades de
-                              aprendizaje de algunos grupos, como las mujeres
-                              jóvenes y las niñas.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                      <div className='accordion-item'>
-                        <h2 className='accordion-header' id='headingFive'>
-                          <button
-                            className='accordion-button collapsed'
-                            type='button'
-                            data-bs-toggle='collapse'
-                            data-bs-target='#collapseFive'
-                            aria-expanded='false'
-                            aria-controls='collapseFive'
-                          >
-                            5. Financiación de la educación
-                          </button>
-                        </h2>
-                        <div
-                          id='collapseFive'
-                          className='accordion-collapse collapse'
-                          aria-labelledby='headingFive'
-                          data-bs-parent='#accordionExample'
-                        >
-                          <div className='accordion-body'>
-                            <p>
-                              Aunque el gasto mundial en educación ha crecido en
-                              general, este no ha resultado fructífero debido al
-                              elevado crecimiento de la población, los costes
-                              desorbitados de la gestión de la educación durante
-                              la pandemia de COVID-19 y el desvío de la ayuda a
-                              otras emergencias, lo que ha dejado un enorme
-                              déficit financiero mundial en esta materia
-                              educativa.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                  <ViasDeAccion></ViasDeAccion>
                 </div>
                 <div className='post-item-desc'>
                   <div className='post-item-wrap'>
-                    <div className='post-item-desc'>
+                    <div className='post-item-desc py-0'>
                       <h2 className='mt-3'>
                         {" "}
                         El Objetivo de Desarrollo Sostenible 4
@@ -335,7 +162,82 @@ const SobreLaCumbre = () => {
                         el mundo, pero pocos países han conseguido ese objetivo
                         a todos los niveles educativos.
                       </p>
+                      <div className='text-center mt-5 p-4'>
+                        <a
+                          href='https://www.un.org/sustainabledevelopment/es/education/ '
+                          target='_blank'
+                          rel='noopener noreferrer'
+                        >
+                          <img src='/images/cumbre/4.gif' alt='gif' />
+                        </a>
+                      </div>
+                      <div className='mt-5'>
+                        <ul className='list-group list-group-borderless list-group-icon-primary-bg'>
+                          <li className='list-group-item'>
+                            <i className='fa fa-check'></i> La matrícula en la
+                            educación primaria en los países en desarrollo ha
+                            alcanzado el 91%, pero 57 millones de niños siguen
+                            sin escolarizar.
+                          </li>
+                          <li className='list-group-item'>
+                            <i className='fa fa-check'></i> Más de la mitad de
+                            los niños que no se han inscrito en la escuela viven
+                            en el África subsahariana.
+                          </li>
+                          <li className='list-group-item'>
+                            <i className='fa fa-check'></i> Se calcula que el
+                            50% de los niños en edad de recibir educación
+                            primaria pero que no asiste a la escuela vive en
+                            zonas afectadas por los conflictos.
+                          </li>
+                          <li className='list-group-item'>
+                            <i className='fa fa-check'></i> En el mundo, 103
+                            millones de jóvenes no tienen un nivel mínimo de
+                            alfabetización, más del 60% son mujeres.
+                          </li>
+                        </ul>
+                      </div>
+                      <div className='text-center mt-5 p-4 img-rueda py-0 mb-0'>
+                        <img
+                          style={{ height: "200px", width: "200px" }}
+                          src='/images/cumbre/rueda.png'
+                          alt='img'
+                        />
+                      </div>
                     </div>
+                  </div>
+                </div>
+                <div className='post-item-desc'>
+                  <div className='post-item-desc'>
+                    <h2 className='mt-3'>
+                      {" "}
+                      17 objetivos para transformar nuestro mundo
+                    </h2>
+                    <p>
+                      En 2015, la ONU aprobó la{" "}
+                      <a
+                        target='_blank'
+                        rel='noopener noreferrer'
+                        href='https://www.un.org/sustainabledevelopment/es/development-agenda/'
+                      >
+                        Agenda 2030
+                      </a>{" "}
+                      sobre el Desarrollo Sostenible, una oportunidad para que
+                      los países y sus sociedades emprendan un nuevo camino con
+                      el que mejorar la vida de todos, sin dejar a nadie atrás.
+                      La Agenda cuenta con{" "}
+                      <a
+                        target='_blank'
+                        rel='noopener noreferrer'
+                        href='http://www.un.org/sustainabledevelopment/es/objetivos-de-desarrollo-sostenible/'
+                      >
+                        17 Objetivos de Desarrollo Sostenible
+                      </a>
+                      , que incluyen desde la eliminación de la pobreza hasta el
+                      combate al cambio climático, la educación, la igualdad de
+                      la mujer, la defensa del medio ambiente o el diseño de
+                      nuestras ciudades.
+                    </p>
                   </div>
                 </div>
               </div>

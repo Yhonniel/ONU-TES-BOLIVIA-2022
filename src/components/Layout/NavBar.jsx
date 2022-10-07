@@ -54,13 +54,6 @@ const NavBar = () => {
                   DIÁLOGOS Y CONSULTAS
                 </a>
               </li>
-
-              {/* <!-- Menu item 5 Elements--> */}
-              <li className='nav-item dropdown'>
-                <a className='nav-link' href='/noticias'>
-                  NOTICIAS Y ACTIVIDADES
-                </a>
-              </li>
             </ul>
           </div>
         </div>
