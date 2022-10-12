@@ -54,20 +54,22 @@ const BoliviaCumbre = () => {
           </div>
           {/* <!-- right --> */}
           <div className='col-md-6 ps-lg-5'>
-            <span>Bolivia en la Pre-Cumbre</span>
             <h3>
-              Bolivia presente en la Pre-Cumbre <br /> sobre la Transformación
-              de la Educación
+              Bolivia presente en la Cumbre <br /> sobre la Transformación de la
+              Educación
             </h3>
             <p className='mb-0'>
-              La delegación del Estado Plurinacional de Bolivia que participó en
-              la Pre-Cumbre estuvo conformada por el Ministro de Educación,
-              Edgar Pary y el Vicecanciller del Estado, Freddy Mamani, quienes
-              socializaron en reuniones de alto nivel los avances de Bolivia en
-              materia educativa poniendo en relevancia las acciones promovidas
-              por el Gobierno del presidente Luis Arce Catacora para promover el
-              Plan Estratégico del Decenio Internacional de las Lenguas
-              Indígenas 2022 – 2032 en Bolivia.
+              El Estado Plurinacional de Bolivia desde el año 2006 inició la
+              revolución educativa que permitió construir un sistema educativo
+              inclusivo y pertinente, plasmando las aspiraciones de los
+              movimientos sociales, pueblos indígenas, maestras, maestros,
+              padres y madres de familia, de la comunidad educativa en general.
+              Los fundamentos de la Revolución Educativa se encuentran plasmados
+              en la Constitución Política del Estado y la Ley N° 070 de 20 de
+              diciembre de 2010, de la Educación “Avelino Siñani – Elizardo
+              Pérez” que define que “toda persona tiene derecho a recibir
+              educación en todos los niveles de manera universal, productiva,
+              gratuita, integral e intercultural, sin discriminación”.
             </p>
 
             <div className='mt-4'>
@@ -94,7 +96,7 @@ const BoliviaCumbre = () => {
                     <div className='modal-content'>
                       <div className='modal-header'>
                         <h5 className='modal-title' id='exampleModalLabel1'>
-                          Bolivia en la PreCumbre
+                          Bolivia en la Cumbre
                         </h5>
                         <button
                           type='button'

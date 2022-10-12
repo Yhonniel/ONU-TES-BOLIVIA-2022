@@ -1,4 +1,5 @@
 import React from "react";
+import CallToActionImage from "../components/Shared/DialogosConsultas/CallToActionImage";
 
 const BoliviaEnLaCumbre = () => {
   return (
@@ -7,13 +8,14 @@ const BoliviaEnLaCumbre = () => {
         <div className='container'>
           <div className='row all-text-white'>
             <div className='col-md-12 align-self-center position-relative mb-3'>
-              <h1 className='fw-bold display-1 mb-2 mb-md-n4 mt-7'>
+              <h1 className='fw-bold display-1 mb-2 mb-md-n4 mt-4'>
                 Bolivia en la Cumbre
               </h1>
             </div>
           </div>
         </div>
       </div>
+      <CallToActionImage></CallToActionImage>
       <section className='blog-page mt-5 py-0'>
         <div className='container'>
           <div className='col-md-8 mx-auto'>
@@ -35,6 +37,11 @@ const BoliviaEnLaCumbre = () => {
                     <div className='item'>
                       <div className='testimonials-wrap'>
                         <img src='/images/infografias/F.png' alt='img' />{" "}
+                      </div>
+                    </div>
+                    <div className='item'>
+                      <div className='testimonials-wrap'>
+                        <img src='/images/infografias/G.png' alt='img' />{" "}
                       </div>
                     </div>
                   </div>

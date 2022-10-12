@@ -1,4 +1,5 @@
 import React from "react";
+import CallToActionImage from "../components/Shared/DialogosConsultas/CallToActionImage";
 import ViasDeAccion from "../components/Shared/ViasDeAccion";
 
 const SobreLaCumbre = () => {
@@ -8,13 +9,14 @@ const SobreLaCumbre = () => {
         <div className='container'>
           <div className='row all-text-white'>
             <div className='col-md-12 align-self-center position-relative mb-3'>
-              <h1 className='fw-bold display-1 mb-2 mb-md-n4 mt-7'>
+              <h1 className='fw-bold display-1 mb-2 mb-md-n4 mt-4'>
                 Sobre La Cumbre
               </h1>
             </div>
           </div>
         </div>
       </div>
+      <CallToActionImage></CallToActionImage>
       <section className='blog-page py-0 mt-5'>
         <div className='container'>
           <div className='col-md-8 mx-auto'>
