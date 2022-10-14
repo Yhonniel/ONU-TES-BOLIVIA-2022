@@ -57,7 +57,7 @@ const SectionNoticias = () => {
                 </div>
                 <div className='item'>
                   <div className='post'>
-                    <img src='/images/noticias/1.png' alt='' />
+                    <img src='/images/noticias/2.png' alt='' />
                     <div className='post-info'>
                       <span className='post-tag bg-grad text-white mb-3 clearfix'>
                         <a
@@ -84,7 +84,7 @@ const SectionNoticias = () => {
                 </div>
                 <div className='item'>
                   <div className='post'>
-                    <img src='/images/noticias/1.png' alt='' />
+                    <img src='/images/noticias/3.png' alt='' />
                     <div className='post-info'>
                       <span className='post-tag bg-grad text-white mb-3 clearfix'>
                         <a
@@ -111,7 +111,7 @@ const SectionNoticias = () => {
                 </div>
                 <div className='item'>
                   <div className='post'>
-                    <img src='/images/noticias/1.png' alt='' />
+                    <img src='/images/noticias/4.png' alt='' />
                     <div className='post-info'>
                       <span className='post-tag bg-grad text-white mb-3 clearfix'>
                         <a
@@ -139,7 +139,7 @@ const SectionNoticias = () => {
                 </div>
                 <div className='item'>
                   <div className='post'>
-                    <img src='/images/noticias/1.png' alt='' />
+                    <img src='/images/noticias/5.png' alt='' />
                     <div className='post-info'>
                       <span className='post-tag bg-grad text-white mb-3 clearfix'>
                         <a

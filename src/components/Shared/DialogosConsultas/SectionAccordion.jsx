@@ -15,7 +15,7 @@ const SectionAccordion = () => {
                 aria-expanded='true'
                 aria-controls='collapseOne'
               >
-                <h2>Diálogo de Expertas y Expertos</h2>
+                <h4>Diálogo de Expertas y Expertos</h4>
               </button>
             </p>
             <div
@@ -63,7 +63,7 @@ const SectionAccordion = () => {
                 aria-expanded='false'
                 aria-controls='collapseTwo'
               >
-                <h2>Diálogo de las Naciones y Pueblos Indígenas</h2>
+                <h4>Diálogo de las Naciones y Pueblos Indígenas</h4>
               </button>
             </p>
             <div
@@ -110,7 +110,7 @@ const SectionAccordion = () => {
                 aria-expanded='false'
                 aria-controls='collapseThree'
               >
-                <h2>Diálogo sobre la Vía de Acción 4</h2>
+                <h4>Diálogo sobre la Vía de Acción 4</h4>
               </button>
             </p>
             <div
@@ -156,7 +156,7 @@ const SectionAccordion = () => {
                 aria-expanded='false'
                 aria-controls='collapseFour'
               >
-                <h2>Diálogo sobre la Vía de Acción 5</h2>
+                <h4>Diálogo sobre la Vía de Acción 5</h4>
               </button>
             </p>
             <div
@@ -203,7 +203,7 @@ const SectionAccordion = () => {
                 aria-expanded='false'
                 aria-controls='collapseFive'
               >
-                <h2> Diálogo con el Pacto de Unidad</h2>
+                <h4> Diálogo con el Pacto de Unidad</h4>
               </button>
             </p>
             <div
@@ -247,7 +247,7 @@ const SectionAccordion = () => {
                 aria-expanded='false'
                 aria-controls='collapseSix'
               >
-                <h2> Diálogo con organizaciones de la juventud </h2>
+                <h4> Diálogo con organizaciones de la juventud </h4>
               </button>
             </p>
             <div
@@ -292,7 +292,7 @@ const SectionAccordion = () => {
                 aria-expanded='false'
                 aria-controls='collapseSeven'
               >
-                <h2> Consulta de U-Report </h2>
+                <h4> Consulta de U-Report </h4>
               </button>
             </p>
             <div

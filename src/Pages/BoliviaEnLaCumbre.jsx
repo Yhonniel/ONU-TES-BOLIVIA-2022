@@ -94,7 +94,7 @@ const BoliviaEnLaCumbre = () => {
                       </div>
                     </div>
                     <div className='mt-2'>
-                      <span>
+                      <span className='text-muted small'>
                         Participación del Ministro de Educación, Sr. Edgar Pary
                         Chambi en la Pre-Cumbre 29 de junio de 2022 - Sede de la
                         UNESCO - París, Francia
@@ -119,7 +119,7 @@ const BoliviaEnLaCumbre = () => {
                     </div>
                   </div>
                 </div>
-                <div className='post-item-desc'>
+                <div className='post-item-desc py-1'>
                   <h2>Documentos de la Posición de Bolivia</h2>
                   <p>
                     El 6 de mayo de 2022, en una reunión de coordinación llevada
@@ -305,7 +305,7 @@ const BoliviaEnLaCumbre = () => {
                     </div>
                   </div>
                 </div>
-                <div className='post-item-desc'>
+                <div className='post-item-desc py-0'>
                   <h2> Bolivia y la Transformación de la Educación</h2>
                   <div className='post-image tiny-slider testi-full dots-dark'>
                     <div
@@ -433,9 +433,9 @@ const BoliviaEnLaCumbre = () => {
                     <div className='col-12 col-lg-8 mx-auto text-center mt-5'>
                       <h6>
                         Para más información y acceder a datos e indicadores
-                        sobre la educación en Bolivia visita:
+                        sobre la Educación en Bolivia visita:
                         <br />{" "}
-                        <div className='mt-2'>
+                        <div className='mt-4'>
                           <a
                             target='_blank'
                             rel='noopener noreferrer'
@@ -445,7 +445,7 @@ const BoliviaEnLaCumbre = () => {
                             Bolivia
                           </a>{" "}
                         </div>
-                        <div className='mt-2'>
+                        <div className='mt-4'>
                           <a
                             target='_blank'
                             rel='noopener noreferrer'
