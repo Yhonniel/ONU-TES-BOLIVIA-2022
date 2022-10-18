@@ -8,7 +8,7 @@ const AcercaCumbre = () => {
           <div className='col-md-12 col-lg-6 align-self-center '>
             <div className='title text-start'>
               <h3>
-                Transformar la educación, <br /> construir nuestro futuro
+                Transformar la educación, <br /> Construir nuestro futuro
               </h3>
               <p className='mb-0'>
                 La Cumbre sobre la Transformación de la Educación se convoca en
