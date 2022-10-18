@@ -71,16 +71,17 @@ const HeroHome = () => {
           </div>
         </div>
       </div>
-      <div className='position-absolute bottom-0 start-0 w-100 d-none d-md-block mb-n3'>
+      <div className='position-absolute  start-0 w-100 d-md-block mb-n3'>
         <svg
           width='100%'
-          height='100'
+          height='150'
           viewBox='0 0 500 150'
           preserveAspectRatio='none'
         >
           <path d='M0,150 L0,40 Q250,150 500,40 L580,150 Z' fill='white' />
         </svg>
       </div>
+
       <CallToActionImage></CallToActionImage>
     </section>
   );

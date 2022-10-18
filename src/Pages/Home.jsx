@@ -3,7 +3,8 @@ import HeroHome from "../components/Shared/Home/HeroHome";
 import Intituciones from "../components/Shared/Home/Intituciones";
 import BoliviaCumbre from "../components/Shared/Home/BoliviaCumbre";
 import AcercaCumbre from "../components/Shared/Home/AcercaCumbre";
-import InfografiaSlider2 from "../components/Shared/Home/InfografiaSlider2";
+
+import SectionVideoSlider from "../components/Shared/Home/SectionVideoSlider";
 
 const Home = () => {
   return (
@@ -11,9 +12,10 @@ const Home = () => {
       <HeroHome></HeroHome>
 
       <AcercaCumbre></AcercaCumbre>
+
       <BoliviaCumbre></BoliviaCumbre>
 
-      <InfografiaSlider2></InfografiaSlider2>
+      <SectionVideoSlider></SectionVideoSlider>
 
       <Intituciones></Intituciones>
     </>
