@@ -2,7 +2,7 @@ import React from "react";
 
 const AcercaCumbre = () => {
   return (
-    <section id='sobreLaCumbre'>
+    <section className='mb-0 py-4' id='sobreLaCumbre'>
       <div className='container h-100'>
         <div className='row'>
           <div className='col-md-12 col-lg-6 align-self-center '>

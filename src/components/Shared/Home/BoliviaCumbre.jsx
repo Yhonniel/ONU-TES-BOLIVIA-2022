@@ -2,8 +2,8 @@ import React from "react";
 
 const BoliviaCumbre = () => {
   return (
-    <section className='mb-5 py-0 mt-5' id='participacion'>
-      <div className='container'>
+    <section className='py-0' id='participacion'>
+      <div className='container mt-5'>
         <div className='row justify-content-between align-items-center'>
           {/* <!-- left --> */}
           <div className='col-md-6'>
