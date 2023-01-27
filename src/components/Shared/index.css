@@ -55,6 +55,55 @@
   bottom: 0;
   z-index: 0;
 }
+.slider4 {
+  position: relative;
+  z-index: 1;
+}
+.slider4::before {
+  content: "";
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/public/images/hero/14.jpg) no-repeat center center;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 0;
+}
+.slider5 {
+  position: relative;
+  z-index: 1;
+}
+.slider5::before {
+  content: "";
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/public/images/hero/15.jpg) no-repeat center center;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 0;
+}
+
+.slider6 {
+  position: relative;
+  z-index: 1;
+}
+.slider6::before {
+  content: "";
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/public/images/hero/16.jpg) no-repeat center center;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 0;
+}
 
 .img-home-3 {
   background: no-repeat center center;

@@ -38,20 +38,21 @@ const NavBar = () => {
               </li>
               {/* <!-- Menu item 1 Demos--> */}
               <li className='nav-item dropdown'>
-                <a className='nav-link' href='/sobre-la-cumbre'>
-                  SOBRE LA CUMBRE
-                </a>
-              </li>
-              {/* <!-- Menu item 2 Blog--> */}
-              <li className='nav-item dropdown'>
                 <a className='nav-link' href='/bolivia-en-la-cumbre'>
                   BOLIVIA EN LA CUMBRE
                 </a>
               </li>
-              {/* <!-- Menu item 3 Pages--> */}
+            
+              {/* <!-- Menu item 2 Blog--> */}
               <li className='nav-item dropdown'>
                 <a className='nav-link' href='/dialogos-y-consultas'>
                   DIÁLOGOS Y CONSULTAS
+                </a>
+              </li>
+              {/* <!-- Menu item 3 Pages--> */}
+              <li className='nav-item dropdown'>
+                <a className='nav-link' href='/sobre-la-cumbre'>
+                  SOBRE LA CUMBRE
                 </a>
               </li>
             </ul>
