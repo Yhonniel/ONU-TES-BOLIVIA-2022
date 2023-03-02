@@ -39,7 +39,7 @@ const Footer = () => {
                   <div className='divider my-3'></div>
 
                   <div className='copyright-text'>
-                    © Derechos reservados 2022
+                    © Derechos reservados 2023
                   </div>
                 </div>
               </div>
