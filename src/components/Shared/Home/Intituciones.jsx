@@ -2,7 +2,7 @@ import React from "react";
 
 const Intituciones = () => {
   return (
-    <>
+    
       <section className='blog-page py-0 mt-5'>
         <div className='container'>
           <div className='col-md-8 mx-auto'>
@@ -23,7 +23,7 @@ const Intituciones = () => {
           </div>
         </div>
       </section>
-    </>
+    
   );
 };
 

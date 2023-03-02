@@ -16,6 +16,11 @@ const SectionVideoSlider = () => {
           </blockquote>
         </div>
         <div className='row'>
+        <div className='col-md-6'>
+            <div className='py-4 mb-4'>
+              <VideoHome></VideoHome>
+            </div>
+          </div>
           <div className='col-md-6'>
             <div className='py-4 mb-4'>
               <InfografiaSlider2></InfografiaSlider2>
@@ -27,6 +32,7 @@ const SectionVideoSlider = () => {
             </div>
           </div>
         </div>
+        
       </div>
     </section>
   );

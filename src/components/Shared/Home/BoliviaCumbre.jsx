@@ -78,95 +78,10 @@ const BoliviaCumbre = () => {
                 <button
                   type='button'
                   className='btn btn-grad'
-                  data-bs-toggle='modal'
-                  data-bs-target='#boliviaCumbre'
                 >
-                  Más información
-                </button>
+                  <a href="/bolivia-en-la-cumbre" className="text-white">Más información</a>
 
-                {/* <!-- Modal --> */}
-                <div
-                  className='modal fade'
-                  id='boliviaCumbre'
-                  tabindex='-1'
-                  aria-labelledby='boliviaCumbre'
-                  aria-hidden='true'
-                >
-                  <div className='modal-dialog modal-dialog-centered'>
-                    <div className='modal-content'>
-                      <div className='modal-header'>
-                        <h5 className='modal-title' id='exampleModalLabel1'>
-                          Bolivia en la Cumbre
-                        </h5>
-                        <button
-                          type='button'
-                          className='btn-close'
-                          data-bs-dismiss='modal'
-                          aria-label='Close'
-                        ></button>
-                      </div>
-                      <div className='modal-body'>
-                        Durante su intervención, el jefe de la cartera de
-                        Educación boliviano reafirmó el compromiso del
-                        presidente constitucional de Bolivia, Luis Arce
-                        Catacora, de garantizar el derecho a la educación para
-                        todas y todos los bolivianos. Asimismo, ratificó que las
-                        acciones en temas educativos continúan en la presente
-                        gestión, y adelantó que el Gobierno nacional proyecta
-                        llegar al 2025 con una educación de calidad,
-                        participativa, en igualdad de condiciones, erradicando
-                        la violencia para todas y todos los bolivianos.
-                        {/* <div className='col-md-6 mb-4 mt-4'>
-                          <ul className='list-group list-group-borderless'>
-                            <li className='list-group-item'>
-                              <a
-                                target={"_blank"}
-                                href='https://www.youtube.com/watch?v=XcVG7SGiWW8'
-                              >
-                                <i className='fa fa-link fa-fw text-info'></i>
-                                Participación del Ministro de Educación, Edgar
-                                Pary Chambi en la Pre-Cumbre 29 de junio de 2022
-                                - Sede de la UNESCO - París, Francia
-                              </a>
-                            </li>
-                            <li className='list-group-item'>
-                              <a
-                                target={"_blank"}
-                                href='https://drive.google.com/file/d/16dOfsFGBIQGM7izK_pi51SwOonYicVGt/view?usp=sharing'
-                              >
-                                <i className='fa fa-link fa-fw text-info'></i>
-                                PreCumbre sobre la Transformación de la
-                                Educación
-                              </a>
-                            </li>
-                          </ul>
-                        </div> */}
-                        {/* <div>
-                          <p>
-                            <a
-                              target={"_blank"}
-                              href='https://transformingeducationsummit.sdg4education2030.org/BoliviaNationalConsultationReport'
-                            >
-                              Accede al Informe Preliminar del Estado
-                              Plurinacional de Bolivia sobre las Consultas y
-                              Diálogos Nacionales presentado para la Pre-Cumbre.
-                            </a>
-                          </p>
-                        </div> */}
-                      </div>
-                      <div className='modal-footer'>
-                        <button type='button' className='btn'>
-                          <a
-                            className='btn btn-grad'
-                            href='/bolivia-en-la-cumbre'
-                          >
-                            Ir a la sección
-                          </a>
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                </button>
               </div>
             </div>
           </div>

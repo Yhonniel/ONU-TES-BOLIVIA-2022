@@ -5,6 +5,7 @@ import BoliviaCumbre from "../components/Shared/Home/BoliviaCumbre";
 import AcercaCumbre from "../components/Shared/Home/AcercaCumbre";
 
 import SectionVideoSlider from "../components/Shared/Home/SectionVideoSlider";
+import Timeline from "../components/Shared/Home/Timeline";
 
 const Home = () => {
   return (
@@ -17,7 +18,10 @@ const Home = () => {
 
       <SectionVideoSlider></SectionVideoSlider>
 
+      <Timeline></Timeline>
+
       <Intituciones></Intituciones>
+      
     </>
   );
 };

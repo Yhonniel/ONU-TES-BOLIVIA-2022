@@ -1,4 +1,5 @@
 import React from "react";
+import DialogosDetalles from "./DialogosDetalles";
 import SectionAccordion from "./SectionAccordion";
 
 const BodyPage1 = () => {
@@ -67,12 +68,13 @@ const BodyPage1 = () => {
                   han proporcionado insumos para elaborar la posición nacional
                   del Estado Plurinacional de Bolivia ante la Cumbre.
                 </p>
-
-                <SectionAccordion></SectionAccordion>
               </div>
             </div>
           </div>
         </div>
+
+        <DialogosDetalles></DialogosDetalles>
+        
       </div>
     </section>
   );

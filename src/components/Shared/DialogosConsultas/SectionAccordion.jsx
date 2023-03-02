@@ -12,7 +12,7 @@ const SectionAccordion = () => {
                 type='button'
                 data-bs-toggle='collapse'
                 data-bs-target='#collapseOne'
-                aria-expanded='true'
+                aria-expanded='false'
                 aria-controls='collapseOne'
               >
                 <h4>Diálogo de Expertas y Expertos</h4>

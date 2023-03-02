@@ -18006,7 +18006,7 @@ header.navbar-sticky-on .navbar-brand .navbar-brand-item {
 }
 
 .icon-grad i:before {
-  background: linear-gradient(150deg, #c5192d 0%, #c5192d 100%);
+  background: white;
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
