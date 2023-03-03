@@ -3,7 +3,7 @@ import "../../index.css";
 
 const InfografiaSlider2 = () => {
   return (
-    <div className='col-md-8 mx-auto'>
+    <div className='col-md-12 mx-auto'>
       <div className='post-item'>
         <div className='post-item-wrap'>
           <div className='post-image tiny-slider testi-full dots-dark'>

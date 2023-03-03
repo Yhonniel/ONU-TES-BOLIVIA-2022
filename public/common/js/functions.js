@@ -479,6 +479,7 @@ var e = {
                 selector: '*[data-glightbox]',
                 openEffect: 'fade',
                 closeEffect: 'fade'
+            
             });
         }
     },

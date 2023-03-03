@@ -1,10 +1,12 @@
 import React from "react";
 import InfografiaSlider2 from "./Shared/InfografiaSlider2";
-import VideoHome from "./Shared/VideoHome";
+import VideoHome1 from "./Shared/VideoHome1";
+import VideoHome2 from "./Shared/VideoHome2";
+
 
 const SectionVideoSlider = () => {
   return (
-    <section className='blog-page '>
+    <section className='blog-page mb-5 py-0 mt-7'>
       <div className='container'>
         <div className='post-item-desc'>
           <blockquote class='blockquote primary-line' cite='#'>
@@ -16,23 +18,22 @@ const SectionVideoSlider = () => {
           </blockquote>
         </div>
         <div className='row'>
-        <div className='col-md-6'>
-            <div className='py-4 mb-4'>
-              <VideoHome></VideoHome>
+        <div className='col-md-4'>
+            <div className='mb-5'>
+              <VideoHome1></VideoHome1>
             </div>
           </div>
-          <div className='col-md-6'>
-            <div className='py-4 mb-4'>
+          <div className='col-md-4'>
+            <div className='mb-5'>
               <InfografiaSlider2></InfografiaSlider2>
             </div>
           </div>
-          <div className='col-md-6'>
-            <div className='py-4 mb-4'>
-              <VideoHome></VideoHome>
+          <div className='col-md-4'>
+            <div className='mb-5'>
+            <VideoHome2></VideoHome2>
             </div>
           </div>
         </div>
-        
       </div>
     </section>
   );
