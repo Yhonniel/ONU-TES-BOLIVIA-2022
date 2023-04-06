@@ -11,7 +11,7 @@ const VideoHome2 = () => {
               <div className='testimonials-wrap'>
                 <img
                   className='rounded'
-                  src='images/cumbre/secretario-onu.png'
+                  src='images/cumbre/secretario-onu-2.png'
                   alt='img'
                 />
                 <div className='position-absolute start-0 bottom-0 ms-4 ms-md-n2 mb-3'>

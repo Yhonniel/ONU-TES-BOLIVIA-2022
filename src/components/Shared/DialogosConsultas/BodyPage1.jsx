@@ -1,4 +1,5 @@
 import React from "react";
+import CallToActionslinks from "./CallToActionslinks";
 import DialogosDetalles from "./DialogosDetalles";
 import SectionAccordion from "./SectionAccordion";
 
@@ -74,6 +75,7 @@ const BodyPage1 = () => {
         </div>
 
         <DialogosDetalles></DialogosDetalles>
+        <CallToActionslinks></CallToActionslinks>
         
       </div>
     </section>

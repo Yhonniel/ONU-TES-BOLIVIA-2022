@@ -6,6 +6,7 @@ import AcercaCumbre from "../components/Shared/Home/AcercaCumbre";
 
 import SectionVideoSlider from "../components/Shared/Home/SectionVideoSlider";
 import Timeline from "../components/Shared/Home/Timeline";
+import ViasDeAccion from "../components/Shared/Home/ViasDeAccion";
 
 const Home = () => {
   return (
@@ -15,6 +16,8 @@ const Home = () => {
       <AcercaCumbre></AcercaCumbre>
 
       <BoliviaCumbre></BoliviaCumbre>
+
+      <ViasDeAccion></ViasDeAccion>
 
       <SectionVideoSlider></SectionVideoSlider>
 

@@ -198,7 +198,7 @@ const BoliviaEnLaCumbre = () => {
                                 <li className='list-group-item'>
                                   <i className='fa fa-link fa-fw text-info'></i>{" "}
                                   <a
-                                    href='#'
+                                    href='https://drive.google.com/file/d/1-nz9SAAz-HMpVwPXQCij8gNtfr8vVHMo/view?usp=share_link'
                                     target='_blank'
                                     rel='noopener noreferrer'
                                   >
@@ -237,7 +237,7 @@ const BoliviaEnLaCumbre = () => {
                                 <li className='list-group-item'>
                                   <i className='fa fa-link fa-fw text-info'></i>{" "}
                                   <a
-                                    href='#'
+                                    href='https://drive.google.com/file/d/1biC-W5wcJPtssOEJx428cwqcLCWUmlNt/view?usp=share_link'
                                     target='_blank'
                                     rel='noopener noreferrer'
                                   >
@@ -249,42 +249,7 @@ const BoliviaEnLaCumbre = () => {
                             </div>
                           </div>
                         </div>
-                        <div className='accordion-item'>
-                          <h2 className='accordion-header' id='headingThree'>
-                            <button
-                              className='accordion-button collapsed'
-                              type='button'
-                              data-bs-toggle='collapse'
-                              data-bs-target='#collapseThree'
-                              aria-expanded='false'
-                              aria-controls='collapseThree'
-                            >
-                              Documento de Posición País
-                            </button>
-                          </h2>
-                          <div
-                            id='collapseThree'
-                            className='accordion-collapse collapse'
-                            aria-labelledby='headingThree'
-                            data-bs-parent='#accordionExample'
-                          >
-                            <div className='accordion-body'>
-                              <ul className='list-group list-group-borderless'>
-                                <li className='list-group-item'>
-                                  <i className='fa fa-link fa-fw text-info'></i>{" "}
-                                  <a
-                                    href='#'
-                                    target='_blank'
-                                    rel='noopener noreferrer'
-                                  >
-                                    Descarga el Documento de Posición País ante
-                                    la Cumbre
-                                  </a>
-                                </li>
-                              </ul>
-                            </div>
-                          </div>
-                        </div>
+                   
                         <div className='row'>
                           <div className='col-12 col-lg-8 mx-auto text-center mt-5'>
                             <h6>
